@@ -5,14 +5,14 @@ const App = () => {
 	const [count, setCount] = useState(0);
 
 	return (
-		<main className="flex h-dvh w-screen items-center justify-center bg-background text-foreground px-8 py-6 overflow-x-hidden overflow-y-auto">
+		<main className="flex h-dvh w-screen items-center justify-center overflow-y-auto overflow-x-hidden bg-background px-4 py-6 text-foreground">
 			<TypingText
 				text={[
 					"Beautiful components for React",
 					"Built with shadcn/ui",
 					"Ship faster than ever!",
 				]}
-				className="text-4xl font-bold"
+				className="w-full hyphens-auto text-left font-bold text-4xl"
 				cursorCharacter="|"
 				pauseDuration={1500}
 				loop={false}
