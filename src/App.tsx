@@ -5,7 +5,7 @@ const App = () => {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="flex h-svh w-screen items-center justify-center bg-black-100">
+		<main className="flex h-dvh w-screen items-center justify-center bg-background text-foreground px-8 py-6 overflow-x-hidden overflow-y-auto">
 			<TypingText
 				text={[
 					"Beautiful components for React",
@@ -20,7 +20,7 @@ const App = () => {
 				typingSpeed={75}
 				variableSpeed={{ min: 50, max: 120 }}
 			/>
-		</div>
+		</main>
 	);
 };
 
