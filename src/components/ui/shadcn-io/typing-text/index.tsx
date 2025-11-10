@@ -111,7 +111,7 @@ const TypingText = ({
 	useEffect(() => {
 		if (!isVisible) return;
 
-		let timeout: NodeJS.Timeout;
+		let timeout: any;
 
 		const currentText = textArray[currentTextIndex];
 		const processedText = reverseMode

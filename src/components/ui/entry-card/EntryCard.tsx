@@ -1,6 +1,5 @@
 import { format, formatDistanceToNowStrict } from "date-fns";
 import { es } from "date-fns/locale/es";
-import { Calendar } from "lucide-react";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { LoadableImage } from "@/components/ui/loadable-image";
