@@ -4,8 +4,8 @@ import { ENTRIES } from "@/entries";
 export const EntryPage = () => {
 	return (
 		<EntryCard
+			content={ENTRIES[0].content}
 			date={ENTRIES[0].date}
-			description={ENTRIES[0].content}
 			media={ENTRIES[0].media}
 			title={ENTRIES[0].title}
 		/>

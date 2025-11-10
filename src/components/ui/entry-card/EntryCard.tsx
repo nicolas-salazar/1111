@@ -7,13 +7,13 @@ import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
 
 export const EntryCard = ({
+	content,
 	date,
-	description,
 	media,
 	title,
 }: {
+	content: string[];
 	date: string;
-	description: string;
 	media: Array<{ type: string; src: string }>;
 	title: string;
 }) => {
@@ -38,16 +38,18 @@ export const EntryCard = ({
 						cursorCharacter="|"
 						initialDelay={1000}
 						loop={false}
-						onSentenceComplete={() =>
-							setTimeout(() => setTypewriterDone(true), 250)
-						}
+						onSentenceComplete={(_, index) => {
+							if (index === content.length - 1) {
+								setTimeout(() => setTypewriterDone(true), 250);
+							}
+						}}
 						showCursor={true}
-						text={description}
+						text={content}
 						typingSpeed={45}
 					/>
 
 					<p className="top-0 hyphens-auto text-left text-l text-muted-foreground text-transparent leading-relaxed">
-						{description}
+						{content.join("\n")}
 					</p>
 				</div>
 
