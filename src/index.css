@@ -54,6 +54,8 @@
   --shadow-2xl: 0px 3px 0px 0px hsl(330 70% 30% / 0.45);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
+
+  --color-border: var(--border);
 }
 
 .dark {
@@ -160,4 +162,10 @@
   --shadow-lg: var(--shadow-lg);
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
+}
+
+* {
+  color-scheme: light dark;
+  border-color: var(--color-border);
+  box-sizing: border-box;
 }
