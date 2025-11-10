@@ -14,7 +14,7 @@ export const EntryCard = ({
 }: {
 	date: string;
 	description: string;
-	media: Array<{ type: "image" | "video"; src: string }>;
+	media: Array<{ type: string; src: string }>;
 	title: string;
 }) => {
 	const [typewriterDone, setTypewriterDone] = useState(false);
