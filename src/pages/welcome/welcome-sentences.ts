@@ -2,7 +2,7 @@ import { ENTRIES } from "@/entries";
 
 export const WELCOME_SENTENCES = [
 	"Hola.",
-	"Estuve trabajoso el domingo y el lunes en la noche en Buenos Aires me quedé dormido después de la carne, ¿recuerdas? Y traje el computador que por si acaso.",
+	"Estando en Buenos Aires, me puse trabajoso el domingo y además el lunes en la noche me quedé dormido después de la carne, ¿recuerdas? Y traje el computador que por si acaso.",
 	"Obviamente mentí.",
 	"Aún ahorita escribiendo esto se me llena el corazón de nostalgia al recordar todas las ideas que pasaron por mi cabeza cuando empecé a planear qué iba a pasar en nuestro primer 11 de noviembre. Y ojalá sean muchos 11/11 más para poderlas ir sacando una a una de mi lista de cosas que quiero hacer por ti.",
 	'Entonces yo, en medio de la planeación del viaje con mi mamita e intentando decidir si me devolvía a Colombia el 11 o no, lancé una moneda. Y salió cara. Y salió "quedarme". Y aquí estoy.',

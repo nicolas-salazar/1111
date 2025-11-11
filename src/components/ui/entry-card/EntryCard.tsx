@@ -1,13 +1,23 @@
 import { format, formatDistanceToNowStrict } from "date-fns";
 import { es } from "date-fns/locale/es";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
+import { Button } from "@/components/ui/button";
 import { LoadableImage } from "@/components/ui/loadable-image";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
 import type { Entry } from "@/entries";
 
-export const EntryCard = ({ entry }: { entry: Entry }) => {
+export const EntryCard = ({
+	entry,
+	previousEntry,
+	nextEntry,
+}: {
+	entry: Entry;
+	previousEntry: Entry | null;
+	nextEntry: Entry | null;
+}) => {
 	const { content, date, media, n, title } = entry;
 	const images = media.filter((item) => item.type === "image");
 	const videos = media.filter((item) => item.type === "video");
@@ -16,7 +26,7 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 
 	return (
 		<div className="flex min-h-fit w-full flex-col rounded-xl border bg-background text-card-foreground shadow">
-			<Header />
+			<Header previousEntry={previousEntry} nextEntry={nextEntry} />
 
 			<div className="flex flex-col gap-6 px-4 py-8">
 				<h2 className="font-bold text-4xl leading-tight tracking-tight">
@@ -125,7 +135,13 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 	);
 };
 
-const Header = () => (
+const Header = ({
+	previousEntry,
+	nextEntry,
+}: {
+	previousEntry: Entry | null;
+	nextEntry: Entry | null;
+}) => (
 	<div className="flex items-center justify-between rounded-t-xl border-b bg-card px-4 py-2">
 		<div className="flex items-center gap-3">
 			<div className="flex gap-2">
@@ -133,6 +149,23 @@ const Header = () => (
 				<div className="size-3 rounded-full bg-yellow-500"></div>
 				<div className="size-3 rounded-full bg-green-500"></div>
 			</div>
+		</div>
+
+		<div className="flex items-center gap-2">
+			{previousEntry && (
+				<Link to={`/entry/${previousEntry.n}`}>
+					<Button className="text-xs" size="sm" variant="outline">
+						Anterior
+					</Button>
+				</Link>
+			)}
+			{nextEntry && (
+				<Link to={`/entry/${nextEntry.n}`}>
+					<Button className="text-xs" size="sm" variant="outline">
+						Siguiente
+					</Button>
+				</Link>
+			)}
 		</div>
 	</div>
 );

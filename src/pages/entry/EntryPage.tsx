@@ -6,5 +6,11 @@ export const EntryPage = () => {
 	const { id } = useParams();
 	const index = parseInt(id || "0", 10);
 
-	return <EntryCard entry={ENTRIES[index - 1]} />;
+	return (
+		<EntryCard
+			entry={ENTRIES[index - 1]}
+			nextEntry={ENTRIES[index] || null}
+			previousEntry={ENTRIES[index - 2] || null}
+		/>
+	);
 };

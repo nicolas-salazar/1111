@@ -57,7 +57,7 @@ export const WelcomePage = () => {
 						loop={false}
 						showCursor={index === lastItemToBeShownIndex}
 						text={text}
-						typingSpeed={4}
+						typingSpeed={45}
 						onSentenceComplete={() => {
 							if (index < WELCOME_SENTENCES.length - 1) {
 								setTimeout(() => setLastItemToBeShownIndex(index + 1), 0);
