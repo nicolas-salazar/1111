@@ -5,52 +5,44 @@ import { twMerge } from "tailwind-merge";
 import { LoadableImage } from "@/components/ui/loadable-image";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
+import type { Entry } from "@/entries";
 
-export const EntryCard = ({
-	content,
-	date,
-	media,
-	title,
-}: {
-	content: string[];
-	date: string;
-	media: Array<{ type: string; src: string }>;
-	title: string;
-}) => {
-	const [typewriterDone, setTypewriterDone] = useState(false);
-
+export const EntryCard = ({ entry }: { entry: Entry }) => {
+	const { content, date, media, n, title } = entry;
 	const images = media.filter((item) => item.type === "image");
-	// const videos = media.filter((item) => item.type === "video");
+	const videos = media.filter((item) => item.type === "video");
+
+	const [typewriterDone, setTypewriterDone] = useState(false);
 
 	return (
 		<div className="flex min-h-fit w-full flex-col rounded-xl border bg-background text-card-foreground shadow">
 			<Header />
 
 			<div className="flex flex-col gap-6 px-4 py-8">
-				<h2 className="font-bold text-4xl leading-tight tracking-tight">
-					{title}
-				</h2>
+				<div className="flex flex-col gap-2">
+					<h2 className="font-bold text-4xl leading-tight tracking-tight">
+						{title}
+					</h2>
+
+					<h3 className="text-md leading-tight tracking-tight">
+						Nuestra cita número {n}
+					</h3>
+				</div>
 
 				<div className="relative">
 					<TypingText
 						as="p"
-						className="absolute hyphens-auto text-left text-l text-muted-foreground leading-relaxed"
+						className="hyphens-auto text-left text-l text-muted-foreground leading-relaxed"
 						cursorCharacter="|"
 						initialDelay={1000}
 						loop={false}
-						onSentenceComplete={(_, index) => {
-							if (index === content.length - 1) {
-								setTimeout(() => setTypewriterDone(true), 250);
-							}
+						onSentenceComplete={() => {
+							setTimeout(() => setTypewriterDone(true), 250);
 						}}
 						showCursor={true}
-						text={content}
+						text={content.join("\n\n")}
 						typingSpeed={45}
 					/>
-
-					<p className="top-0 hyphens-auto text-left text-l text-muted-foreground text-transparent leading-relaxed">
-						{content.join("\n")}
-					</p>
 				</div>
 
 				<div
@@ -63,15 +55,36 @@ export const EntryCard = ({
 				>
 					{images.length > 0 && (
 						<ImageZoom backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'>
-							{images.map((image) => (
-								<LoadableImage
-									className="h-auto w-full rounded-2xl object-cover"
-									key={`entry-card.image-${image.src}`}
-									src={image.src}
-								/>
-							))}
+							<div className="flex w-full flex-col gap-4">
+								{images.map((image) => (
+									<LoadableImage
+										className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
+										key={`entry-card.image-${image.src}`}
+										src={image.src}
+									/>
+								))}
+							</div>
 						</ImageZoom>
 					)}
+
+					{videos.length > 0 &&
+						videos.map((video) => (
+							<video
+								autoPlay
+								className="w-full rounded-2xl"
+								controls
+								key={`entry-card.video-${video.src}`}
+								src={video.src}
+							>
+								<track
+									kind="captions"
+									srcLang="es"
+									label="Español"
+									src=""
+									default
+								/>
+							</video>
+						))}
 
 					<div className="h-[1px] w-full shrink-0 bg-border" />
 
