@@ -19,15 +19,9 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 			<Header />
 
 			<div className="flex flex-col gap-6 px-4 py-8">
-				<div className="flex flex-col gap-2">
-					<h2 className="font-bold text-4xl leading-tight tracking-tight">
-						{title}
-					</h2>
-
-					<h3 className="text-md leading-tight tracking-tight">
-						Nuestra cita número {n}
-					</h3>
-				</div>
+				<h2 className="font-bold text-4xl leading-tight tracking-tight">
+					{title}
+				</h2>
 
 				<div className="relative">
 					<TypingText
@@ -41,7 +35,7 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 						}}
 						showCursor={true}
 						text={content.join("\n\n")}
-						typingSpeed={45}
+						typingSpeed={4}
 					/>
 				</div>
 
@@ -73,7 +67,9 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 								className="w-full rounded-2xl"
 								controls
 								key={`entry-card.video-${video.src}`}
+								playsInline
 								src={video.src}
+								muted
 							>
 								<track
 									kind="captions"
@@ -87,34 +83,40 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 
 					<div className="h-[1px] w-full shrink-0 bg-border" />
 
-					<div className="flex items-center justify-between gap-4">
-						<div className="flex items-center gap-3">
-							<span
-								className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 font-bold text-lg"
-								style={{ background: "#eaeaea", color: "#f5f5f5" }}
-							>
-								N
-							</span>
-							<div>
-								<p className="font-semibold">Nicolás</p>
-								<p className="text-muted-foreground text-xs">
-									Tu novio que te quiere
-								</p>
+					<div className="flex w-full flex-col gap-4">
+						<h3 className="text-xs leading-tight tracking-tight">
+							Esta fue nuestra cita número {n}.
+						</h3>
+
+						<div className="flex items-center justify-between gap-4">
+							<div className="flex items-center gap-3">
+								<span
+									className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 font-bold text-lg"
+									style={{ background: "#eaeaea", color: "#f5f5f5" }}
+								>
+									N
+								</span>
+								<div>
+									<p className="font-semibold">Nicolás</p>
+									<p className="text-muted-foreground text-xs">
+										Tu novio que te quiere
+									</p>
+								</div>
 							</div>
-						</div>
 
-						<div className="flex flex-col items-end">
-							<span className="text-xs">
-								{format(date, "MMM dd, yyyy", {
-									locale: es,
-								})}
-							</span>
+							<div className="flex flex-col items-end">
+								<span className="text-xs">
+									{format(date, "MMM dd, yyyy", {
+										locale: es,
+									})}
+								</span>
 
-							<span className="text-xs">
-								{`(hace ${formatDistanceToNowStrict(date, {
-									locale: es,
-								})})`}
-							</span>
+								<span className="text-xs">
+									{`(hace ${formatDistanceToNowStrict(date, {
+										locale: es,
+									})})`}
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
