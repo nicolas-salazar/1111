@@ -1,7 +1,6 @@
 import { addDays } from "date-fns";
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import { EntryTile } from "@/components/ui/entry-tile";
 import { KeyEntryTile } from "@/components/ui/key-entry-tile";
 import { ENTRIES } from "@/entries";
