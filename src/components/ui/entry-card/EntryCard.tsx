@@ -72,23 +72,34 @@ export const EntryCard = ({
 
 					{videos.length > 0 &&
 						videos.map((video) => (
-							<video
-								autoPlay
-								className="w-full rounded-2xl"
-								controls
-								key={`entry-card.video-${video.src}`}
-								playsInline
-								src={video.src}
-								muted
+							<div
+								className="relative"
+								key={`entry-card.video-container-${video.src}`}
 							>
-								<track
-									kind="captions"
-									srcLang="es"
-									label="Español"
-									src=""
-									default
+								<video
+									autoPlay
+									className="w-full rounded-2xl"
+									controls
+									src={video.src}
+									muted
+								>
+									<track
+										kind="captions"
+										srcLang="es"
+										label="Español"
+										src=""
+										default
+									/>
+								</video>
+
+								{/* biome-ignore lint/a11y/useAnchorContent: Will skip it for now */}
+								<a
+									className="video-anchor absolute top-0 left-0 h-full w-full"
+									href={video.src}
+									rel="noreferrer"
+									target="_blank"
 								/>
-							</video>
+							</div>
 						))}
 
 					<div className="h-[1px] w-full shrink-0 bg-border" />

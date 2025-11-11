@@ -178,3 +178,14 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.video-anchor {
+  display: none;
+}
+
+/* biome-ignore lint/a11y/useGenericFontNames: need it to apply styles to safari only */
+@supports (font: -apple-system-body) {
+  .video-anchor {
+    display: block;
+  }
+}
