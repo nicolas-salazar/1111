@@ -1028,10 +1028,11 @@ export const ENTRIES: Entry[] = [
 		n: 70,
 		content: [
 			"Llegaste en moto del trabajo a mi apartamento y estuvo bien lindo porque sí nos levantamos temprano y sí desayunamos y sí nos dio el tiempo para almorzar (chino en San Miguel) y hasta alcanzamos a comer tu postre favorito en riquísimo yyyyy casi llegamos a tiempo al trabajo jajaja. La quiero.",
+			"💬 Perdóneme, hasta aquí alcancé a subir las fotos :(, es re demorado eso usté viera.",
 		],
 		date: "2025-01-03T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Nuestro primer Riquísimo",
 	},
 	{
 		n: 71,
@@ -1040,7 +1041,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tacos de parmesano",
 	},
 	{
 		n: 72,
@@ -1049,16 +1050,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-07T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Uno de esos días perfectos",
 	},
 	{
 		n: 73,
 		content: [
-			"Aunque hoy amanecimos juntos y no nos separamos, esta la cuento como  un día diferente porque tiene que quedar en el registro que hoy fuimos a La Lupe 😮‍💨😮‍💨😮‍💨😮‍💨. Y además estaban don Armando y la señora Milena. Y además nos terminamos de ver Piratas del Caribe nonono. Y nos despertamos al medio día y desayunamos mantecados de San Gil que nos trajeron mi mamá y Valeria.",
+			"Aunque hoy amanecimos juntos y no nos separamos, esta la cuento como un día diferente porque tiene que quedar en el registro que hoy fuimos a La Lupe 😮‍💨😮‍💨😮‍💨😮‍💨. Y además estaban don Armando y la señora Milena. Y además nos terminamos de ver Piratas del Caribe nonono. Y nos despertamos al medio día y desayunamos mantecados de San Gil que nos trajeron mi mamá y Valeria.",
 		],
 		date: "2025-01-08T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Juntos todo el día, hasta en La Lupe",
 	},
 	{
 		n: 74,
@@ -1067,7 +1068,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-09T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Noche en tu camita",
 	},
 	{
 		n: 75,
@@ -1076,7 +1077,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Lasaña en la fábrica con tu mamita",
 	},
 	{
 		n: 76,
@@ -1085,7 +1086,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-11T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Verde limón antes del trabajo",
 	},
 	{
 		n: 77,
@@ -1094,7 +1095,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-12T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Robin",
 	},
 	{
 		n: 78,
@@ -1103,7 +1104,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-14T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Centro con Arnold y Cami",
 	},
 	{
 		n: 79,
@@ -1112,7 +1113,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Sin ponernos palos de orgulo...",
 	},
 	{
 		n: 80,
@@ -1121,7 +1122,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-17T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Ceviche en Cota 😮‍💨",
 	},
 	{
 		n: 81,
@@ -1130,7 +1131,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mangonada de LaLupe",
 	},
 	{
 		n: 82,
@@ -1139,7 +1140,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-19T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mochis con Juan",
 	},
 	{
 		n: 83,
@@ -1148,7 +1149,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Pastas en casa de tus tías",
 	},
 	{
 		n: 84,
@@ -1157,7 +1158,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-22T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tinto con la señora Flor bien madrugados",
 	},
 	{
 		n: 85,
@@ -1166,7 +1167,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-25T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Escondido yo en tu clóset (no homo jajaja)",
 	},
 	{
 		n: 86,
@@ -1175,7 +1176,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Ceviche de mango",
 	},
 	{
 		n: 87,
@@ -1184,7 +1185,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-28T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Flores amarillas para NVL",
 	},
 	{
 		n: 88,
@@ -1193,7 +1194,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-01-31T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Almuerzo en el Eneldo, en San Miguel",
 	},
 	{
 		n: 89,
@@ -1202,7 +1203,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-01T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cumpleaños de la abuela Yolanda",
 	},
 	{
 		n: 90,
@@ -1211,7 +1212,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-03T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "🍗🍗🍗👩‍🏫",
 	},
 	{
 		n: 91,
@@ -1220,7 +1221,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Pasaportes",
 	},
 	{
 		n: 92,
@@ -1229,7 +1230,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Postre con Lili",
 	},
 	{
 		n: 93,
@@ -1238,7 +1239,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-08T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cumpleaños de tu mamita",
 	},
 	{
 		n: 94,
@@ -1247,7 +1248,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Asao con Angie y Mathiu",
 	},
 	{
 		n: 95,
@@ -1256,7 +1257,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-11T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Nuestros primeros tres meses",
 	},
 	{
 		n: 96,
@@ -1265,70 +1266,89 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-14T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Nos vamos a Méxicooooooo 🛩️",
 	},
 	{
 		n: 97,
-		content: ["Llegamos a México, a la ciudad de México."],
+		content: [
+			"Llegamos a México, a la Ciudad de México.",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-15T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tú y yo en CDMX",
 	},
 	{
 		n: 98,
-		content: ["CDMX 2."],
+		content: [
+			"Seguimos en La Ciudad de México.",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-16T10:01:42.834Z",
 		media: [],
 		title: "",
 	},
 	{
 		n: 99,
-		content: ["Mérida 1."],
+		content: [
+			"AH Mérida. No estaba abierto el restaurante de André :(",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-17T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mérida sin taco",
 	},
 	{
 		n: 100,
-		content: ["Mérida 2 -> Apolinare Campos yendo a los cenotes. "],
+		content: [
+			"Mérida 2: Conocimos a don Apolinare Campos yendo a los cenotes.",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cenotes",
 	},
 	{
 		n: 101,
-		content: ["Monterrey y conociste al sayocean ❤️."],
+		content: [
+			"Monterrey y conociste al sayocean ❤️.",
+			"AAAAAAAAAAAAAA",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-19T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Hoy conociste al SayOcean",
 	},
 	{
 		n: 102,
-		content: ["GDL 1. AH Guadalajara ❤️. Y conociste al patito extremo."],
+		content: [
+			"AH Guadalajara ❤️. Y conociste al patito extremo.",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-02-20T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mi bella Guadalajara con mi bella Laura",
 	},
 	{
 		n: 103,
-		content: ["GDL 2."],
+		content: ["Guadalajara día 2.", "💬 Perdóneme, se la debo :("],
 		date: "2025-02-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Seguimos en Guadalajara",
 	},
 	{
 		n: 104,
-		content: ["Querétaro."],
+		content: ["Querétaro.", "💬 Perdóneme, se la debo :("],
 		date: "2025-02-22T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Llegamos a Querétaro",
 	},
 	{
 		n: 105,
-		content: ["Volvimos a CDMX y de regreso a Colombia."],
+		content: ["Regresamos a Colombia.", "💬 Perdóneme, se la debo :("],
 		date: "2025-02-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Volviendo de México",
 	},
 	{
 		n: 106,
@@ -1337,16 +1357,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-24T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Bolos con Angie y Mathiu",
 	},
 	{
 		n: 107,
 		content: [
 			"Como al parecer no podemos estar un día sin vernos ❤️ nos vimos en la nochecita porque tú salías de la shaio con Angie y yo de Porsche con Mathiu. Tomamos cafecito con Angie y Mathiu y luego compramos pizza y hablamos un montón y entonces ellos obvio que se gustan y isssss jajaja. tequieromuchozarigüeya.",
+			"💬 Anda mira todo lo que salíamos los cuatro.",
 		],
 		date: "2025-02-25T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mil Delicias con Angie y Mathiu",
 	},
 	{
 		n: 108,
@@ -1355,7 +1376,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Perritos calientes con tarea en casa",
 	},
 	{
 		n: 109,
@@ -1364,7 +1385,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-02-28T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cocheritos",
 	},
 	{
 		n: 110,
@@ -1373,7 +1394,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-02T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Chismesito con Mathiu y sus papás",
 	},
 	{
 		n: 111,
@@ -1382,7 +1403,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-03T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Lilo & Stitch: hoy sí",
 	},
 	{
 		n: 112,
@@ -1391,7 +1412,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tu camita, pero con permiso",
 	},
 	{
 		n: 113,
@@ -1400,7 +1421,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-05T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cumpleaños de mi mamita",
 	},
 	{
 		n: 114,
@@ -1409,7 +1430,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Jueves de observación",
 	},
 	{
 		n: 115,
@@ -1418,7 +1439,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Postrecito en Turquesa",
 	},
 	{
 		n: 116,
@@ -1427,16 +1448,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-11T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "No hicimos la ensalada de cogollos",
 	},
 	{
 		n: 117,
 		content: [
-			"Hoy sí hicimos la ensalada . Quedó RE elegante 😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨; le pusimos pechuga de pollo cocinada y un poquito sofreída; mango; los cogollos y alguito de granola. Y nos la comimos mientras terminábamos de ver Dodgeball. Y sobró algo de pollo que fritamos y dejamos para el desayuno de mañana. Va a ser bonito recordar que hoy me diste la llave de tu casita para traer tus pastas del tratamiento y que todos estuvieron de acuerdo, y que saliste de clases y llegaste a mi casa en moto pero te daba miedo cruzar la avenida. También hiciste tarea acá, antes de que hiciéramos la ensalada.",
+			"Hoy sí hicimos la ensalada. Quedó RE elegante 😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨; le pusimos pechuga de pollo cocinada y un poquito sofreída; mango; los cogollos y alguito de granola. Y nos la comimos mientras terminábamos de ver Dodgeball. Y sobró algo de pollo que fritamos y dejamos para el desayuno de mañana. Va a ser bonito recordar que hoy me diste la llave de tu casita para traer tus pastas del tratamiento y que todos estuvieron de acuerdo, y que saliste de clases y llegaste a mi casa en moto pero te daba miedo cruzar la avenida. También hiciste tarea acá, antes de que hiciéramos la ensalada.",
 		],
 		date: "2025-03-12T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Hoy sí hicimos la ensalada de cogollos",
 	},
 	{
 		n: 118,
@@ -1445,7 +1466,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-13T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tu empresa de confecciones",
 	},
 	{
 		n: 119,
@@ -1454,7 +1475,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-14T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "tristes-ya-no-tristes",
 	},
 	{
 		n: 120,
@@ -1463,7 +1484,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-15T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Qué guapa te ves en el trabajo",
 	},
 	{
 		n: 121,
@@ -1472,16 +1493,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Maze Runner I",
 	},
 	{
 		n: 122,
 		content: [
 			"Hoy nos comimos un heladito express en el goyurt de metrópolis, no pudimos quedarnos mucho rato pero estuvo rico rico.",
+			"💬 Muchas gracias por siempre encontrar el tiempo para vernos, así sea solo un poquito antes del trabajo.",
 		],
 		date: "2025-03-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Gurús express",
 	},
 	{
 		n: 123,
@@ -1490,7 +1512,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Dormimos hasta tarde en tu casita",
 	},
 	{
 		n: 124,
@@ -1499,7 +1521,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tu primer domingo libre en años, conmigo ❤️",
 	},
 	{
 		n: 125,
@@ -1508,16 +1530,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-25T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Excusa para verte en el trabajo",
 	},
 	{
 		n: 126,
 		content: [
 			"Hoy celebramos el grado de Juan y la despedida de Papita. Todo muy nostálgico :(",
+			"💬 Nooooooo :(",
 		],
 		date: "2025-03-27T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Grado de Juan",
 	},
 	{
 		n: 127,
@@ -1526,7 +1549,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-03-31T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Arepitas con chocolate",
 	},
 	{
 		n: 128,
@@ -1535,7 +1558,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Trasteo juntos",
 	},
 	{
 		n: 129,
@@ -1544,7 +1567,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Primer domingo en la nueva casa",
 	},
 	{
 		n: 130,
@@ -1553,16 +1576,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-15T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Juan se fue",
 	},
 	{
 		n: 131,
 		content: [
 			"Hoy querías que almorzáramos juntos pero como yo tenía muchas entrevistas, trajiste pasta y pollo e hiciste el almuerzo tú misma 🍝, más linnnnnnnda 🫶. Y además viniste en la noche después del trabajo y nos dormimos hasta no tan tarde porque te tocaba trabajar también.",
+			"💬 ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
 		],
 		date: "2025-04-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Me hiciste el almuerzo porque andaba yo en muchas entrevistas",
 	},
 	{
 		n: 132,
@@ -1571,7 +1595,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-17T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Brownies con Tati, Mateo y Mathiu",
 	},
 	{
 		n: 133,
@@ -1580,7 +1604,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mojarra en casa de tus tías",
 	},
 	{
 		n: 134,
@@ -1589,7 +1613,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-19T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Otro goyurt express",
 	},
 	{
 		n: 135,
@@ -1598,7 +1622,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-20T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Arroz con leche",
 	},
 	{
 		n: 136,
@@ -1607,7 +1631,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-22T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Llevé yo mi pijama",
 	},
 	{
 		n: 137,
@@ -1616,7 +1640,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Una ⭐️",
 	},
 	{
 		n: 138,
@@ -1625,7 +1649,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Chino para la prueba de Snappr",
 	},
 	{
 		n: 139,
@@ -1634,25 +1658,27 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-04-30T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El Topo -> La Lupe",
 	},
 	{
 		n: 140,
 		content: [
 			"Hoy vimos Jump Street y estuvo severa. Y volvimos a hacer avena juntos para el desayuno de mañana ❤️. ",
+			"💬 Hagamos más avena; todos los días; siempre :(",
 		],
 		date: "2025-05-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Jump Street",
 	},
 	{
 		n: 141,
 		content: [
 			"Fuimos al cine, ¿puedes creerlo? Jajaja 🍿🍿🍿🍿. Vimos la de Until Dawn y estuvo chimba y compramos gomitas y entonces salimos y estabas asustada y vinimos a casa y nos vimos al Rubius jugando PT y nos dormirnos y todo muy mágico. ",
+			"💬 El primero de muchos, ¿no? Me encanta ir al cine contigo guapetona.",
 		],
 		date: "2025-05-05T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Nuestro primer cine",
 	},
 	{
 		n: 142,
@@ -1661,7 +1687,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Huevos costeños en tu casita.",
 	},
 	{
 		n: 143,
@@ -1670,7 +1696,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-07T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "La Isla Siniestra",
 	},
 	{
 		n: 144,
@@ -1679,7 +1705,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-11T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El Ovejo antes de Medellín",
 	},
 	{
 		n: 145,
@@ -1688,7 +1714,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-12T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Caja de Emergencias",
 	},
 	{
 		n: 146,
@@ -1697,7 +1723,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-14T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Videollamada desde Medellín",
 	},
 	{
 		n: 147,
@@ -1706,7 +1732,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Pollito 🐥",
 	},
 	{
 		n: 148,
@@ -1715,7 +1741,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-20T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "De incógnito en tu camita",
 	},
 	{
 		n: 149,
@@ -1724,7 +1750,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-22T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Días de adultos mayores",
 	},
 	{
 		n: 150,
@@ -1733,7 +1759,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-24T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Laura y la bici",
 	},
 	{
 		n: 151,
@@ -1742,16 +1768,18 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-05-28T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Lilo & Stitch con Juan y la Chica, en cine",
 	},
 	{
 		n: 152,
 		content: [
 			"pobreLauralesacaronsangre:(. Y fuimos al Unicentro a cambiar tus Vans y entonces te ves bien punk y ready para el trabajo. Y como me dio moco, en la nochecita me hiciste aguamiel con jengibre y cómo te quiero 🫚🫚🫚.",
+			"💬 ¿Soy los vans que están bajo tu cama?",
+			"💬 Alta referencia al SayOcean 😮‍💨.",
 		],
 		date: "2025-05-29T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Buscando tus vans",
 	},
 	{
 		n: 153,
@@ -1760,7 +1788,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-01T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Otra excusa para verte en el trabajo",
 	},
 	{
 		n: 154,
@@ -1769,7 +1797,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-02T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "¿Muy cansados?",
 	},
 	{
 		n: 155,
@@ -1778,7 +1806,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-03T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Chez Jack",
 	},
 	{
 		n: 156,
@@ -1787,95 +1815,104 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Gelatina de 🌸",
 	},
 	{
 		n: 157,
 		content: ["Día de tintura allá en Cajicá con tus tías. Esssstilo 💅."],
 		date: "2025-06-05T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "De tintura con las tías 💅",
 	},
 	{
 		n: 158,
 		content: [
 			"Nos vimos saliendo del trabajo para ir a casa a dormir y te quedaste y entonces al otro día (sábado) fuimos a las ferias y compramos tus boticas para Buenos Aires y además el hilo para mi cortina y terminamos comiendo hamburguesas de pescado en la Begonia 🙂‍↔️🙂‍↔️🙂‍↔️🙂‍↔️. ",
+			"💬 Cómo me gustan esas boticas 😍😍😍😍😍😍",
 		],
 		date: "2025-06-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Boticas para Buenos Aires",
 	},
 	{
 		n: 159,
-		content: ["Guayaquil."],
+		content: ["Guayaquil.", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-09T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Escala en Guayaquil",
 	},
 	{
 		n: 160,
-		content: ["BA 1 (306)."],
+		content: ["BA 1 (306).", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "De nuevo en Buenos Aires - I",
 	},
 	{
 		n: 161,
-		content: ["BA 2."],
+		content: ["BA 2.", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-11T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Buenos Aires II - II",
 	},
 	{
 		n: 162,
-		content: ["BA 3."],
+		content: ["BA 3.", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-12T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Buenos Aires II - III",
 	},
 	{
 		n: 163,
-		content: ["BA 4."],
+		content: ["BA 4.", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-13T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Buenos Aires II - IV",
 	},
 	{
 		n: 164,
 		content: ["BA 5. "],
 		date: "2025-06-14T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Buenos Aires II - V",
 	},
 	{
 		n: 165,
-		content: ["De BA a Colonia (Agustina) en ⛴️. "],
+		content: [
+			"De BA a Colonia (Agustina) en ⛴️. ",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-06-15T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "A Colina, en ferry.",
 	},
 	{
 		n: 166,
-		content: ["Colonia 2. "],
+		content: ["Colonia 2.", "💬 Perdóneme, se la debo :("],
 		date: "2025-06-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "En Colonia del Sacramento, tú y yo",
 	},
 	{
 		n: 167,
-		content: ["Colonia 3 y llegamos a Montevideo (1006). "],
+		content: [
+			"Colonia 3 y llegamos a Montevideo (1006).",
+			"💬 Perdóneme, se la debo :(",
+		],
 		date: "2025-06-17T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mar en Montevideo, Uruguay",
 	},
 	{
 		n: 168,
 		content: [
 			"Nos caminamos todo el centro de Montevideo y se nos acabó el paseo :(",
+			"💬 Perdóneme, se la debo :(",
 		],
 		date: "2025-06-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title:
+			"Que ya nos toca irnos a la casa pero yo me quiero quedar en Uruguay, contigo",
 	},
 	{
 		n: 169,
@@ -1884,16 +1921,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-19T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Del aeropuerto a American Broasted",
 	},
 	{
 		n: 170,
 		content: [
 			"Hoy fue tarde de sancocho allá donde tus tías. Y de camino pasamos a visitar a Arturo y estaba mi mamá y entonces nos dieron arroz con pollo del que hace Josué.",
+			"💬 Estuvo una go-no-rre-a 😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨",
 		],
 		date: "2025-06-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Sancocho en casa de tus tías",
 	},
 	{
 		n: 171,
@@ -1902,25 +1940,27 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Kwan",
 	},
 	{
 		n: 172,
 		content: [
 			"Nos vimos un ratito en la noche para celebrar con el pollo con ensalada de mango del Wok que entraste a la Inmaculada. Mi guapa ♥️🌸, me siento tan tan orgulloso de ti.",
+			"💬 Sí, tan tan orgulloso de ti ❤️.",
 		],
 		date: "2025-06-24T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "La Inmaculada 🤝 Lau",
 	},
 	{
 		n: 173,
 		content: [
 			"Me invitaste a ver la película de la fórmula 1 y yo muy feliz porque me escuchaste hace dos meses cuando te hice la pataleta y invitaste pero entonces triste porque no nací rico para ser piloto.",
+			"💬 ¿Y si vamos al cine a ver otra vez la película de la fórmula 1?",
 		],
 		date: "2025-06-25T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "La película de la Fórmula 1",
 	},
 	{
 		n: 174,
@@ -1929,7 +1969,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cómo entrenar a tu dragón",
 	},
 	{
 		n: 175,
@@ -1938,7 +1978,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-06-29T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Sigo buscando excusas para verte en el trabajo",
 	},
 	{
 		n: 176,
@@ -1947,16 +1987,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-01T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Amaneciendo en tu casita, otra vez",
 	},
 	{
 		n: 177,
 		content: [
 			"Hoy nos vimos la de cómo entregar a tu dragón pero la nueva, la live action, me invitaste y yo muy agradecido. Estuvo buena buena 🙂‍↔️🙂‍↔️. Y además antes del cine fui a encontrarme contigo allá donde tus días y comimos mogolla con chocolate.",
+			"💬 Estuvo muy buena muchas gracias.",
 		],
 		date: "2025-07-02T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cómo entrenar a tu dragón, pero Live Action",
 	},
 	{
 		n: 178,
@@ -1965,7 +2006,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-03T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Arepitas quesudas",
 	},
 	{
 		n: 179,
@@ -1974,7 +2015,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Un año desde que te vi",
 	},
 	{
 		n: 180,
@@ -1983,7 +2024,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-07T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Un año desde nuestra primera cita",
 	},
 	{
 		n: 181,
@@ -1992,16 +2033,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-08T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Chocolate con las tías, en plan de tías",
 	},
 	{
 		n: 182,
 		content: [
-			" Hoy sí fuimos a vistar a Juli y la pasamos bueno bueno, él nomás se la pasaba preguntándonos que cómo nos habíamos hecho novios y así jajaja. Y salimos motivados llenos de arcoíris por su discurso coach y fuimos a comer al Wok y nos regresamos a tu casita.",
+			"Hoy sí fuimos a vistar a Juli y la pasamos bueno bueno, él nomás se la pasaba preguntándonos que cómo nos habíamos hecho novios y así jajaja. Y salimos motivados llenos de arcoíris por su discurso coach y fuimos a comer al Wok y nos regresamos a tu casita.",
 		],
 		date: "2025-07-09T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Con Juli y BMW",
 	},
 	{
 		n: 183,
@@ -2010,7 +2051,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Arepitas quesudas pero con mi mamita y Mathiu",
 	},
 	{
 		n: 184,
@@ -2019,7 +2060,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-15T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Toy Story y goyurt con Arturo",
 	},
 	{
 		n: 185,
@@ -2028,7 +2069,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Almuerzo con Lili y Juan en el Ana",
 	},
 	{
 		n: 186,
@@ -2037,7 +2078,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-17T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Conociste Chopinar y te gustó 🙂‍↔️",
 	},
 	{
 		n: 187,
@@ -2046,16 +2087,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tus tías y tu mamita en la casa mía",
 	},
 	{
 		n: 188,
 		content: [
-			"Todos requetetristes porque fue tu último día de trabajo en el Monkey. Mentiras, todos muy felices pero sí va a estar bien raro ir y no verte ahí :(. Habrá sido paila el trabajo y Xiomara y Jhon y lo que sea, pero el Monkey nos dio la oportunidad de conocernos 🚚. ",
+			"Todos requetetristes porque fue tu último día de trabajo en el Monkey. Mentiras, todos muy felices pero sí va a estar bien raro ir y no verte ahí :(. Habrá sido paila el trabajo y Xiomara y Jhon y lo que sea, pero el Monkey nos dio la oportunidad de conocernos 🚚.",
 		],
 		date: "2025-07-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Adiós, Monkey House",
 	},
 	{
 		n: 189,
@@ -2064,7 +2105,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Lupe con Angie y Mathiu",
 	},
 	{
 		n: 190,
@@ -2073,16 +2114,17 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-24T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "SayOcean viene a Sudamérica 😭🐬",
 	},
 	{
 		n: 191,
 		content: [
 			"En tu primer viernes libre Mire que nos levantamos re re re tarde y almorzamos allá en el Ana y nos encontramos a Lili y Juan y le dimos al chismesito y luego fuimos a tu casa y tu con el Excel y yo con el trabajo y qué romántico y luego hablamos mucho como hasta la media noche y ya me tocó irme porque hay que madrugar :(.",
+			"💬 Gracias. De verdad gracias ❤️.",
 		],
 		date: "2025-07-25T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Tu primer viernes libre, conmigo también",
 	},
 	{
 		n: 192,
@@ -2091,7 +2133,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Hanashi",
 	},
 	{
 		n: 193,
@@ -2100,7 +2142,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-27T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Fríjoles sin pezuña",
 	},
 	{
 		n: 194,
@@ -2109,7 +2151,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-28T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Jeans y calzones nuevos",
 	},
 	{
 		n: 195,
@@ -2118,7 +2160,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-29T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Jueputa pero qué gripa la que nos dio 🤧",
 	},
 	{
 		n: 196,
@@ -2127,7 +2169,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-30T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Don Luna y su mercado",
 	},
 	{
 		n: 197,
@@ -2136,7 +2178,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-07-31T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Me pillaron infraganti, llegando amanecido",
 	},
 	{
 		n: 198,
@@ -2145,7 +2187,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-08-07T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Carne oreada en el Chicamocha",
 	},
 	{
 		n: 199,
@@ -2154,7 +2196,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-08-08T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Papa John's y Bob Esponja",
 	},
 	{
 		n: 200,
@@ -2163,7 +2205,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-08-09T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Excusa para verte: ya no hace falta ir al trabajo",
 	},
 	{
 		n: 201,
@@ -2172,7 +2214,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-08-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Un viernes de locos",
 	},
 	{
 		n: 202,
@@ -2181,25 +2223,27 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-08-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Pumpe de Arturo",
 	},
 	{
 		n: 203,
 		content: [
 			"Nos vimos la película del poeta en el cinemark y la verdad estuvo muy buena muchas gracias. Y hoy llegó nuestra violeta 🪴 a casa. ",
+			"💬 Anda mira ahora cómo nos la pasamos en el cine. Jajaja. Se pasa muy bueno por allá contigo muchas gracias.",
 		],
 		date: "2025-08-30T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El Poeta",
 	},
 	{
 		n: 204,
 		content: [
 			"¿Puedes creer que vino el rebelmate a Colombia y que fuimos juntos a verlos? 😭😭😭😭. ¿Pero y para cuándo un concierto tuyo? Y no tocaron caótica :(",
+			"💬 Perdidos en la noche, viendo las estrellas brillar.",
 		],
 		date: "2025-09-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Rebelmate en Colombia 😱",
 	},
 	{
 		n: 205,
@@ -2208,7 +2252,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-10T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El Conjuro I",
 	},
 	{
 		n: 206,
@@ -2217,7 +2261,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-13T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "mesi",
 	},
 	{
 		n: 207,
@@ -2226,7 +2270,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-16T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Almuerzo con amor",
 	},
 	{
 		n: 208,
@@ -2235,7 +2279,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Sale mal el pan de remolacha",
 	},
 	{
 		n: 209,
@@ -2244,7 +2288,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-19T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El Jaguar Negro en Chapultepec",
 	},
 	{
 		n: 210,
@@ -2253,7 +2297,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-20T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Vale Garzón en el Coca-Cola Food Fest",
 	},
 	{
 		n: 211,
@@ -2262,7 +2306,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-21T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Ajolote y pastor antes de volar de vuelta a casa",
 	},
 	{
 		n: 212,
@@ -2271,16 +2315,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-09-23T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Almuerzo con mi mamita",
 	},
 	{
 		n: 213,
 		content: [
-			"Visitamos a Arturo y a Valeria y les llevaste monitas sin azúcar y sacamos a los perros y le dimos al chismesito y todo muy bueno muchas gracias por echarle ganas.",
+			"Visitamos a Arturo y a Valeria y les llevaste donitas sin azúcar y sacamos a los perros y le dimos al chismesito y todo muy bueno muchas gracias por echarle ganas.",
 		],
 		date: "2025-09-29T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Donitas sin azúcar para Arturo",
 	},
 	{
 		n: 214,
@@ -2289,7 +2333,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-04T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "La Lupe con mi mamita y Lili",
 	},
 	{
 		n: 215,
@@ -2298,7 +2342,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-06T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Alistándole su nuevo pato",
 	},
 	{
 		n: 216,
@@ -2307,7 +2351,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-09T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "En casa de tus tías, de nuevo ❤️",
 	},
 	{
 		n: 217,
@@ -2316,16 +2360,16 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-12T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Cabra en Cota 🐐",
 	},
 	{
 		n: 218,
 		content: [
-			"Cómo la quiero: el cumpleaños más lindo de la vida mía con el desayuno de dinosaurio y la torta de gelatina y mi capibara y mi súper cámara 9-11 😭😭😭😭😭😭❤️. ",
+			"Cómo la quiero: el cumpleaños más lindo de la vida mía con el desayuno de dinosaurio y la torta de gelatina y mi capibara y mi súper cámara 9-11 😭😭😭😭😭😭❤️.",
 		],
 		date: "2025-10-18T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Mi pumpe - El más lindo de la vida ❤️",
 	},
 	{
 		n: 219,
@@ -2334,7 +2378,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-20T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "muchas mgracias",
 	},
 	{
 		n: 220,
@@ -2343,7 +2387,7 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-22T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "Hamburguesas con piña en el Metrópolis",
 	},
 	{
 		n: 221,
@@ -2352,6 +2396,6 @@ export const ENTRIES: Entry[] = [
 		],
 		date: "2025-10-26T10:01:42.834Z",
 		media: [],
-		title: "",
+		title: "El cadáver de la novia",
 	},
 ];
