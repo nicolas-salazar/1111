@@ -53,19 +53,18 @@ export const EntryCard = ({ entry }: { entry: Entry }) => {
 						"transition-height duration-500",
 					)}
 				>
-					{images.length > 0 && (
-						<ImageZoom backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'>
-							<div className="flex w-full flex-col gap-4">
-								{images.map((image) => (
-									<LoadableImage
-										className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
-										key={`entry-card.image-${image.src}`}
-										src={image.src}
-									/>
-								))}
-							</div>
-						</ImageZoom>
-					)}
+					{images.length > 0 &&
+						images.map((image) => (
+							<ImageZoom
+								backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'
+								key={`entry-card.image-${image.src}`}
+							>
+								<LoadableImage
+									className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
+									src={image.src}
+								/>
+							</ImageZoom>
+						))}
 
 					{videos.length > 0 &&
 						videos.map((video) => (
