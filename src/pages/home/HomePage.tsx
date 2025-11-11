@@ -48,7 +48,7 @@ export const HomePage = () => {
 			})),
 			// Hoy, hace 3 meses:
 			...getEntriesThatHappenedNMonthsAgo({
-				distanceInMonths: 6,
+				distanceInMonths: 3,
 				referenceDate: new Date(),
 			}).map((record) => ({
 				distance: record.distance,
