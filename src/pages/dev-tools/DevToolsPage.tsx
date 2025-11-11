@@ -8,9 +8,8 @@ export const DevToolsPage = () => {
 
 			<Button
 				onClick={() => {
-					toast("Event has been created", {
-						description: "Sunday, December 03, 2023 at 9:00 AM",
-					});
+					localStorage.clear();
+					toast("Done!", { description: "Local storage cleared." });
 				}}
 			>
 				Drop cache

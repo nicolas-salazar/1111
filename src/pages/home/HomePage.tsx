@@ -1,5 +1,7 @@
 import { addDays } from "date-fns";
 import { useMemo } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import { EntryTile } from "@/components/ui/entry-tile";
 import { KeyEntryTile } from "@/components/ui/key-entry-tile";
 import { ENTRIES } from "@/entries";
@@ -95,6 +97,13 @@ export const HomePage = () => {
 					<EntryTile key={`home.entry.${entry.n}`} entry={entry} />
 				))}
 			</div>
+
+			<Link
+				className="ml-auto w-fit text-right text-sm underline"
+				to="/welcome"
+			>
+				Volver a ver la intro gei
+			</Link>
 		</div>
 	);
 };

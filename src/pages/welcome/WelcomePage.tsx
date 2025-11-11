@@ -1,13 +1,19 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
+import { Button } from "@/components/ui/button";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
 import { WELCOME_SENTENCES } from "@/pages/welcome/welcome-sentences";
+
+export const HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY =
+	"has-visited-the-welcome-page";
 
 export const WelcomePage = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const scrollInterval = useRef<ReturnType<typeof setInterval> | null>(null);
 
 	const [lastItemToBeShownIndex, setLastItemToBeShownIndex] = useState(0);
+	const [showContinueButton, setShowContinueButton] = useState(false);
 
 	useEffect(() => {
 		scrollInterval.current = setInterval(() => {
@@ -22,6 +28,13 @@ export const WelcomePage = () => {
 				clearInterval(scrollInterval.current);
 			}
 		};
+	}, []);
+
+	useEffect(() => {
+		localStorage.setItem(
+			HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY,
+			JSON.stringify(true),
+		);
 	}, []);
 
 	return (
@@ -44,18 +57,28 @@ export const WelcomePage = () => {
 						loop={false}
 						showCursor={index === lastItemToBeShownIndex}
 						text={text}
-						variableSpeed={{ min: 45, max: 60 }}
+						typingSpeed={4}
 						onSentenceComplete={() => {
 							if (index < WELCOME_SENTENCES.length - 1) {
 								setTimeout(() => setLastItemToBeShownIndex(index + 1), 0);
 							} else {
-								if (scrollInterval.current) {
-									clearInterval(scrollInterval.current);
-								}
+								setTimeout(() => {
+									if (scrollInterval.current) {
+										clearInterval(scrollInterval.current);
+									}
+								}, 500);
+
+								setShowContinueButton(true);
 							}
 						}}
 					/>
 				),
+			)}
+
+			{showContinueButton && (
+				<Link className="w-full" to="/home">
+					<Button className="w-full">Hazme click</Button>
+				</Link>
 			)}
 		</div>
 	);
