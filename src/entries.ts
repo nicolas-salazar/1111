@@ -1024,4 +1024,1334 @@ export const ENTRIES: Entry[] = [
 		],
 		title: "Año nuevo en San Gil",
 	},
+	{
+		n: 70,
+		content: [
+			"Llegaste en moto del trabajo a mi apartamento y estuvo bien lindo porque sí nos levantamos temprano y sí desayunamos y sí nos dio el tiempo para almorzar (chino en San Miguel) y hasta alcanzamos a comer tu postre favorito en riquísimo yyyyy casi llegamos a tiempo al trabajo jajaja. La quiero.",
+		],
+		date: "2025-01-03T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 71,
+		content: [
+			"Nos vimos en la nochecita para hacer la avena de Lili y lo que yo no sabía es que tú tenías planeado hacer los tacos de parmesano. A los tacos le doy un 6 jajaja, nos salieron mal; a la avena un 10 y al cocinar contigo en la noche un 3000. Me auedé contigo en tu camita y me levanté temprano porque el topo tenía pico y placa.",
+		],
+		date: "2025-01-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 72,
+		content: [
+			"Hoy fue uno de esos días que se sintieron perfectos: amanecí contigo en tu camita; nos vimos al medio día para almorzar con Lili y llevarle su avena; estuvimos un rato en la fábrica y hablaste con la señora Flor; conociste a Diego quien estaba estampando unas camisetas; me viste jugar chutias en el parque mientras bajaban Valeria y Arturo con Fito y Simona; hicimos la visita donde Valeria y cerramos el día tomando tinto y echando chisme donde mi mamá. ¿Ah? Qué día Laura ✨❤️. Y además cerramos viendo La Maldición del Perla Negra y durmiendo juntos. Es el sueño.",
+		],
+		date: "2025-01-07T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 73,
+		content: [
+			"Aunque hoy amanecimos juntos y no nos separamos, esta la cuento como  un día diferente porque tiene que quedar en el registro que hoy fuimos a La Lupe 😮‍💨😮‍💨😮‍💨😮‍💨. Y además estaban don Armando y la señora Milena. Y además nos terminamos de ver Piratas del Caribe nonono. Y nos despertamos al medio día y desayunamos mantecados de San Gil que nos trajeron mi mamá y Valeria.",
+		],
+		date: "2025-01-08T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 74,
+		content: [
+			"Como mañana tengo que abrir la fábrica, me invitaste a pasar la noche en tu camita, imagínate lo bonito ❤️. Te recogí del trabajo y nomás fueron como cinco horas pero siempre vale la pena.",
+		],
+		date: "2025-01-09T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 75,
+		content: [
+			"Hoy pasaste por la fábrica con tu mamá y me llevaste lasaña para el almuerzo, ¿AH? Fue en los quince minutos que tenías libre antes de tu cita al médico. Ese es el sueño Laura.",
+		],
+		date: "2025-01-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 76,
+		content: [
+			"Como sabes que ando raro, me invitaste a almorzar antes del trabajo. Fuimos al verde limón y como nos sobró tiempo, nos comimos una oblea ahí cerca al monkey. Estuvo rico. Gracias por tenerme paciencia Lau.",
+		],
+		date: "2025-01-11T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 77,
+		content: [
+			"Te recogí para que habláramos de lo de los bares y eso y terminamos haciendo un par de acuerdos y quedándonos juntos para vernos mañana con Arnold y Cami. Se nos hizo un poquito tarde pero al final sí nos vimos con ellos; fuimos a la Autogermana; vimos carros; almorzamos todos y te dejamos en el trabajo. Y todo eso con Robin, imagínate 🐝.",
+		],
+		date: "2025-01-12T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 78,
+		content: [
+			"Hoy fuimos al centro con Arnold y Cami y a Magola y la pasamos rico. Llegamos a dormir un rato en la casa de mi mamá antes de irnos al blackbear y después al jam de blues en el bar de la 45. No terminó bien nuestro día pero al menos lo hablamos y no dejamos que quedara así. Nos quedamos juntos.",
+		],
+		date: "2025-01-14T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 79,
+		content: [
+			"Aunque amanecimos mal, nos vimos y conversamos. Y en la noche iba a recogerte pero Valeria se puso mala y nos acompañaste a la clínica. Cuando llegamos a casa hablamos de nuestros no negociables y tuvimos una conversación muy linda y sincera sobre lo que creemos que está bien o mal y sobre lo que nos gusta y lo que no; sentí que hoy sí hablamos desde el corazón y sin orgullo ni rivalidades, como que ahora sí vamos en la dirección correcta. Nos fuimos a dormir muy contentos ❤️.",
+		],
+		date: "2025-01-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 80,
+		content: [
+			"HOY-FUIMOS-POR-CEVICHE-A-COTA-AAAAAAH 🥰. Y justo estaba cerrado el de Cota pueblo entonces fuimos al de vía a Siberia y vimos una cabra y fue muy lindo 🐐. Y te gustó el jugo de feijoa en leche.",
+		],
+		date: "2025-01-17T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 81,
+		content: [
+			"Mangonada de LaLupe en visita rápida al Monkey. Te ves tan tan tan linda con tu trajecito de trabajo 🥰. Y como iba en el Porsche Daniela aprovechó y le dimos una vuelta 🏎️.",
+		],
+		date: "2025-01-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 82,
+		content: [
+			"Hoy tuvimos una cita porque saliste temprano del trabajo. Íbamos a ir al cine en Colina pero entonces la cartelera estaba re mala jajaja. Terminamos visitando a Juan en su trabajo comiendo mochis y después nomás nos quedamos hablando un montón por ahí.",
+		],
+		date: "2025-01-19T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 83,
+		content: [
+			"Almorzamos pastas con tus tías allá en San Miguel y le dimos al chisme y a las historias toooooooda la tarde; ellas me hacen sentir como en casa ❤️. Comimos un heladito en metrópolis (por fin probaste el de curuba pero no te gustó) mientras bajaba el trancón y nos quedamos juntos porque mañana toca madrugar para abrir la fábrica e ir a tu cita médica. Todo contigo se siente como en un sueño.",
+		],
+		date: "2025-01-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 84,
+		content: [
+			"Hoy fue bien lindo yyyyy madrugamos pero dormimos un montón también ✨: fuimos bien temprano a abrir la fábrica; tomamos tinto con la señora Flor y de ahí salimos a tu cita médica en la autopista; comimos un desayuno malo por ahí cerca y agarramos un sitp que nos trajo a casa desde la 19 con 95. Llegamos y estaba haciendo un solazzzzzo ☀️ a eso de las 10:30 y nos arrunchamos hasta bien tarde. Terminamos pidiendo una pizza y haciendo aseo juntos y nos vimos un pedacito de película pero se fue el internet.",
+		],
+		date: "2025-01-22T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 85,
+		content: [
+			"Fue un día loquísisisisimo. Anoche te recogí en el trabajo y hablamos hasta muy tarde y me quedé en tu camita a escondidas de tus papás pero nos agarró el sueño y no me fui temprano y me tocó quedarme escondido en tu clóset hasta que tus papás se subieran y justo un minuto después de que me pude escapar ellos entraron a tu habitación a despedirse 🥷🥷🥷🥷. Todo de infarto jajaja. Y como estábamos con las temperaturas subidas me regresé a verte a escondidas y me los encontré saliendo del parqueadero. Imagínate todo eso nonono. Vinimos a casa antes del trabajo y comimos huevitos con arepa y creo que te quiero mucho.",
+		],
+		date: "2025-01-25T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 86,
+		content: [
+			"Te preparé la cena: arroz con pollo de American y para el postre tu tentación de maracuyá del riquísimo. De camino del trabajo pasamos por el éxito y compramos algunas cositas para hacer el ceviche de mango de almuerzo al otro día, todo en el topo 🚗🚗🚗. Se nos hizo muy muy tarde pero igual no importó; hoy sentimos esa calicatencia y como que no queríamos irnos.",
+		],
+		date: "2025-01-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 87,
+		content: [
+			"Nos entregaron el local de NVL y tú fuiste y llevaste flores y torta ❤️🌼 y nos ayudaste a organizar y entonces yo te quiero y no puedo dejarte ir nunca. Y como si fuera poco, me diste posada en la noche antes de mi vuelo a Medellín.",
+		],
+		date: "2025-01-28T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 88,
+		content: [
+			"Estamos mal pero igual quisimos vernos para almorzar. Y entonces de repente tu papá se nos fue subiendo al carro jajaja para que lo acercáramos a San Miguel. Tú y yo terminamos comiendo en el Eneldo y antes de eso caminamos por ahí y me mostraste dónde era tu casita. Me gusta aprender de ti y de tu pasado.",
+		],
+		date: "2025-01-31T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 89,
+		content: [
+			"Hoy fuimos al cumpleaños de la abuela Yolanda yyyyy me tuve que quedar solo cuando te fuiste al trabajo para conseguirte tu pedazo de torta. Todo muy lindo ❤️. La tía Gloria me dijo que te cuide o que si no me las veré con ella. Jajaja. Y el secreto es que medio nos bañamos en tu casa justo antes de que llegaran Nata y tu mamá 🥷.",
+		],
+		date: "2025-02-01T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 90,
+		content: [
+			"Hoy fue desayuno muy muy temprano, con tu mamá de cómplice, para que comiences tu semestre con energía 💪 jajaja. Y por ahí nos vimos un ratito en la noche después de clases.",
+		],
+		date: "2025-02-03T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 91,
+		content: [
+			"Entonces nos vimos de sorpresa en la oficina de los pasaportes y fuimos a pie hasta gurús para almorzar y después a la clínica a tu clase. Y en el camino paramos en el oxxo y nos compramos esas gomitas de bonbonbum que estaban buenísimasssss 😮‍💨.",
+		],
+		date: "2025-02-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 92,
+		content: [
+			"Llegaste al local después de clases a conocer los maniquís y Lili nos gastó postre al salir. Lili te quiere y eso me hace feliz. Yyyyy de ahí nos fuimos a casa; hicimos palomitas; nos dormimos juntos y nos levantamos tardísimo 👌👌👌👌.",
+		],
+		date: "2025-02-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 93,
+		content: [
+			"Cumpleaños de tu mamá AAAAAAAAA 🫶🫶🫶🫶🫶🫶. Fue express porque tenías trabajo pero ahí alcanzamos a comer torta. Y antes de que llegaras me quedé dándole al chismesito con tus tías (sí, yo llegué antes y cuando llegaste me viste asomado por la ventana) y Yanis me invitó a su cumpleaños el otro domingo.",
+		],
+		date: "2025-02-08T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 94,
+		content: [
+			"Asadito con Angie y Mathiu allá en la fábrica ✨. Y se quedaron un buen rato hablando solos y nosotros somos bien chismosas y ojalá se hayan besado o algo así jsjsj.",
+		],
+		date: "2025-02-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 95,
+		content: [
+			"Hoy cumplimos tres meses de novios ennnnnn el local de héroes grabando tu entrevista como doctora y la de Angie como psicóloga y todo fue muy mágico. Almorzamos todos y luego llevamos a Lili y luego vinimos a dormir un ratico antes de que te fueras al trabajo. Escribo esto cinco minuticos después de que te fuiste; ya te extraño y ya no sé cómo expresarte lo mucho que te quiero pero más tardecito te llevo a casa y te beso ❤️. PD: sí nos vimos en la noche y comimos pizza y te arrunché un rato en tu camita y me fui y todo muy mágico 🧙‍♂️.",
+		],
+		date: "2025-02-11T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 96,
+		content: [
+			"Llegó el día de viajar a México AAAAAA y entonces fuimos a celebrarle el cumpleaños a Yanis y la tía Soraya hizo chimba de sancocho. Nos vimos en la nochecita y arrancamos.",
+		],
+		date: "2025-02-14T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 97,
+		content: ["Llegamos a México, a la ciudad de México."],
+		date: "2025-02-15T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 98,
+		content: ["CDMX 2."],
+		date: "2025-02-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 99,
+		content: ["Mérida 1."],
+		date: "2025-02-17T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 100,
+		content: ["Mérida 2 -> Apolinare Campos yendo a los cenotes. "],
+		date: "2025-02-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 101,
+		content: ["Monterrey y conociste al sayocean ❤️."],
+		date: "2025-02-19T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 102,
+		content: ["GDL 1. AH Guadalajara ❤️. Y conociste al patito extremo."],
+		date: "2025-02-20T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 103,
+		content: ["GDL 2."],
+		date: "2025-02-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 104,
+		content: ["Querétaro."],
+		date: "2025-02-22T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 105,
+		content: ["Volvimos a CDMX y de regreso a Colombia."],
+		date: "2025-02-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 106,
+		content: [
+			"Hoy quisiste que habláramos porque eres la más linda del mundo y no solo sí lo hablamos bien, con corazón, sino que terminamos jugando bolos con Mathiu y Angie; estuvo bien bonito y yo gané porque soy incontenible 🎳🔥🔥🔥. Nos quedamos juntos y nos fuimos temprano a tu casa para que hicieras tarea.",
+		],
+		date: "2025-02-24T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 107,
+		content: [
+			"Como al parecer no podemos estar un día sin vernos ❤️ nos vimos en la nochecita porque tú salías de la shaio con Angie y yo de Porsche con Mathiu. Tomamos cafecito con Angie y Mathiu y luego compramos pizza y hablamos un montón y entonces ellos obvio que se gustan y isssss jajaja. tequieromuchozarigüeya.",
+		],
+		date: "2025-02-25T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 108,
+		content: [
+			"Hoy tenías tarea entonces viniste a casa a hacer tarea acá. Llegaste a la estación en la Suba donde te recogí y nos regresamos a pie, de camino pasamos por el éxito y compramos mercado para hacer perritos calientes. Quedaron ricos; tú adelantaste tu tarea y te quedaste 🌭🌭🌭🌭.",
+		],
+		date: "2025-02-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 109,
+		content: [
+			"Fuimos por arepas y pasteles a San Fernando pero me porté mal y salió mal. Lo bueno fue que no dejamos que se agrandara la pelea y terminamos donde tus días haciendo visita y ya cuando íbamos a casa, pasamos por cocheros y compartimos un perro. Íbamos a ver Lilo y Stitch pero nos dormimos jaja.",
+		],
+		date: "2025-02-28T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 110,
+		content: [
+			"Te recogimos con Mathiu del trabajo yyyyy nos quedamos dándole al chismesito hasta bien tarde, de Angie y así. También conociste a sus papás lo cual me hace feliz. Yo te quiero, mi guapa ❤️.",
+		],
+		date: "2025-03-02T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 111,
+		content: [
+			"HOYPORFINVIMOSLILOYSTITCH y además nos comimos un heladito en metrópolis y conociste el apartamento a donde me voy a mudar y dijiste yo queiro un helao jsjsjs más linda 🥰🥰🥰🥰😭😭😭😭.",
+		],
+		date: "2025-03-03T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 112,
+		content: [
+			"Te llevé pizza en la noche y pedimos permiso para quedarnos en tu camita. Me fui tarde, como a las 10am después del desayuno rico que te hiciste.",
+		],
+		date: "2025-03-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 113,
+		content: [
+			"Cumpleaños de mi mamá. Ella con su tiramisú y Lili y tú con tu tentación de maracuyá.",
+		],
+		date: "2025-03-05T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 114,
+		content: [
+			"Noche en el observatorio de tu universidad con Angie y Mathiu. Y salimos y comimos cocheros y me quedé en tu casita hasta las 5am para que no nos pillaran tus papás.",
+		],
+		date: "2025-03-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 115,
+		content: [
+			"Este fin de semana tuvimos muchos problemas y fue difícil, pero así y todo ambos quisimos vernos en la noche del lunes saliendo de clases. Fue bonito; como que queríamos besarnos pero nos daba pena y nos tocábamos las manos de a poquitos y jugamos y fue divertido y comimos postre en Turquesa (AH, turquesa; debe ser de los lugares con los que más cariño guardo por ahí). Fuimos a tu casita y tu papá nos regaló unos cogollos con los que vamos a hacer una ensalada mañana con mango.",
+		],
+		date: "2025-03-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 116,
+		content: [
+			"Viniste después de clases a hacer la ensalada pero como yo me pasé toda la tarde haciendo aseo, no almorcé y terminamos yendo al wok a comer algo y entonces ya no hicimos la ensalada jaja. Lo que sí hicimos fue que fuimos al Goyurt y estuvo bien bonito porque pensamos que lo habían quitado y cuando ya estábamos bien decepcionados lo encontramos (golazo); el tuyo fue de chocolate con guanábana y leche condensada y el mío de mango con guanábana y salsa de mora y ambos estaban potentes.",
+		],
+		date: "2025-03-11T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 117,
+		content: [
+			"Hoy sí hicimos la ensalada . Quedó RE elegante 😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨; le pusimos pechuga de pollo cocinada y un poquito sofreída; mango; los cogollos y alguito de granola. Y nos la comimos mientras terminábamos de ver Dodgeball. Y sobró algo de pollo que fritamos y dejamos para el desayuno de mañana. Va a ser bonito recordar que hoy me diste la llave de tu casita para traer tus pastas del tratamiento y que todos estuvieron de acuerdo, y que saliste de clases y llegaste a mi casa en moto pero te daba miedo cruzar la avenida. También hiciste tarea acá, antes de que hiciéramos la ensalada.",
+		],
+		date: "2025-03-12T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 118,
+		content: [
+			"Nos vimos un ratito en la noche para grabar el comercial de tu empresa de confecciones de mentiras para tu clase allá en la fábrica; estuvo bonito. Y además comimos perro donde el vecino de la reina. Y me trajiste una gelatina de colores y me encanta y me gustas tú.",
+		],
+		date: "2025-03-13T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 119,
+		content: [
+			"Hoy yo estaba triste y tu también y entonces me dijiste que si podías visitarme en la noche después del trabajo y eso siempre es un sí. Hablamos un ratito y nos fuimos a dormir; fue lindo; gracias por venir y hacerme sentir querido cuando estoy triste ❤️.",
+		],
+		date: "2025-03-14T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 120,
+		content: [
+			"Hoy fue noche de nachos en el Monkey, hace mucho no iba y definitivamente me encantas y me siento perdidamente enamorado viéndote en el trabajo. Saliste tempranito y nos fuimos a tu casa y te arranché; yo me levanté a las 4am para regresarme a casa y ni te diste cuenta, ahí te dejé tu besote en la frente y me fui como el ninja 🥷🥷🥷🥷🥷.",
+		],
+		date: "2025-03-15T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 121,
+		content: [
+			"Hoy fue otra vez tarde/noche en el Monkey pero fui con Mathiu. Hablamos de Angie y vimos el partido y comimos muy rico y nos regresamos todos juntos; dejamos a Mathiu en su casa y nos regresamos tú y yo a la mía que ahora se siente como la nuestra. Vimos Maze Runner y me gustó excepto por el cliché de que mataran al gordito, pero estuvo buena; a ver cuándo nos vemos la 2 que según tú es mala pero que toca ver (o ver el resumen) para poder ver la 3 que según tú está buenísima.",
+		],
+		date: "2025-03-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 122,
+		content: [
+			"Hoy nos comimos un heladito express en el goyurt de metrópolis, no pudimos quedarnos mucho rato pero estuvo rico rico.",
+		],
+		date: "2025-03-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 123,
+		content: [
+			"Jugó Argentina contra Uruguay y Mathiu y yo nos vimos el partido en el Monkey pero no nos encontramos allá sino que pasamos a recogerte a la Universidad. Comimos mucho y nos reímos y te quiero y entonces me quedé en tu casita esa noche y pudimos dormir hasta tarde porque tu mamá estaba donde tus tías y además de todo fuimos a almorzar con ella y la tía Yanis allá en la casa de San Miguel un chino que estaba buenísimo. Ya luego te fuiste a trabajar y qué pesar :(",
+		],
+		date: "2025-03-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 124,
+		content: [
+			"AAAAAA hoy fue un día muy lindo Laura. No tuviste que trabajar el domingo y entonces decidiste pasarlo conmigo ❤️❤️❤️❤️❤️. Y hasta el lunes bien tarde. Hoy nos vimos las otras dos de Maze Runner y sí sí, estuvo bien bueno e intentamos ir a comer arepa en Cota pero valió verga porque quitaron el sitio jaja :( pero entonces mejor porque terminamos comiendo pizza mexicana y estaba severa y nos quedamos dormidos como gordas el lunes hasta tardecita y comimos más pizza y jugaste el de The Last of Us un ratico y nos volvimos a quedar dormidos y luego te hiciste severo arroz con leche y sobró para tu mamá y la mía y a ambas les gusto y entonces te fuiste qué pesar otra vez :(. Te quiero mucho mi guapa, gracias por darme tu único domingo libre quién sabe en cuánto tiempo.",
+		],
+		date: "2025-03-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 125,
+		content: [
+			"Hoy jugó Colombia contra Paraguay y a mi la verdad ni me gusta eso pero era la excusa perfecta para ir a visitarte al Monkey y verte un ratito. Y sí, me encantas, yo te veía de a poquitos por allá bien guapa mientras le chambeadas. Después del trabajo fuimos a tu casita, aprendimos algo de excel juntos, te comiste la hamburguesa que te preparó Juan y fuimos a dormir. Yo me fui muy a las 3:30 de la mañana con el corazón en la mano de dejarte ahí solita pero bueno, tocaba.",
+		],
+		date: "2025-03-25T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 126,
+		content: [
+			"Hoy celebramos el grado de Juan y la despedida de Papita. Todo muy nostálgico :(",
+		],
+		date: "2025-03-27T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 127,
+		content: [
+			"Hiciste arepitas con chocolate para la cena y yo me mueroooooooo. Te imagino yendo a comprar la harina y el queso y se me derrite todo 🥰🥰🥰🥰❤️❤️❤️❤️.",
+		],
+		date: "2025-03-31T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 128,
+		content: [
+			"Hoy fue el trasteo y viniste después del trabajo a pasar la primera noche en la nueva casa juntos ❤️. ",
+		],
+		date: "2025-04-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 129,
+		content: [
+			"Este fue nuestro primer domingo en forma en la nueva casa y dormimos hasta muy tarde y todo muy lindo excepto por aquello de que dejé las llaves por dentro cuando salimos con Mathiu a recogerte. Jajaj :(. Pero hey, las risas no faltaron. Y estuvo rico el Goyurt aunque se nos congeló un poquito. Y además me trajiste mi cactus de acuarelas y yo me muero ❤️❤️❤️❤️ y mi plantita y uvas chéveres nononono. Yo te quiero.",
+		],
+		date: "2025-04-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 130,
+		content: [
+			"Nos asustó tu hermano escapándose de casa pero hey, las risas no faltaron :'v. ",
+		],
+		date: "2025-04-15T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 131,
+		content: [
+			"Hoy querías que almorzáramos juntos pero como yo tenía muchas entrevistas, trajiste pasta y pollo e hiciste el almuerzo tú misma 🍝, más linnnnnnnda 🫶. Y además viniste en la noche después del trabajo y nos dormimos hasta no tan tarde porque te tocaba trabajar también.",
+		],
+		date: "2025-04-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 132,
+		content: [
+			"Vinieron Tati y Mateo y Mathiu e hicimos brownies con tu liderazgo de estrella ⭐️ y jugamos stop y parqués y que la revisa semana y te quedaste porque mañana vamos a comer pescado a donde tus tías 🥰. ",
+		],
+		date: "2025-04-17T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 133,
+		content: [
+			"Laura amaneció enferma, parecía un muerto 🤢, pero le ayudé a ponerse bien (dormimos dos horas más). Fuimos a casa de su familia, comimos pescado y le eché limón en el ojo a su primo (fue sin querer). La familia de Laura me quiere mucho y agradece mucho que yo haga parte. Pero Laura me quiere más, ella me quiere mucho mucho y me hace muy feliz porque yo también quiero mucho a Laura. Cómo te quiero ❤️❤️❤️❤️. Y además hicimos tinto y fuimos unas celebridades porque como que a todos les gustó; ¿o todos fingieron?",
+		],
+		date: "2025-04-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 134,
+		content: [
+			"Hoy nos vimos un ratito antes del trabajo, fueron nomás como 20 minutos pero yo feliz comiendo goyurt contigo. Lo único triste es que te fuiste :(",
+		],
+		date: "2025-04-19T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 135,
+		content: [
+			"hoytuvimosunacitaparacomernoselarrozconlechequemetrajomimamá❤️. ",
+		],
+		date: "2025-04-20T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 136,
+		content: [
+			"Aunque estás en parciales, me dijiste que si quería pasar un rato en la nochecita a vernos. Y yo obvio fui y además llevé mi pijama y un skwinklote. Me terminé quedando y nos levantamos ya de día, hiciste el desayuno y salimos juntos tú a tu clase y yo a mi casa que ahora queda bien cerca porque somos vecinos y entonces me regresé a pie.",
+		],
+		date: "2025-04-22T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 137,
+		content: [
+			"Hoy de nuevo te visité en la nochecita tú a contarme de tu 5 en el parcial de educación porque eres una ⭐️ y yo a contarte que voy a trabajar en GoDaddy. Yyyy otra vez llevé mi pijama y nos levantamos ya de día y todo muy lindo y calientito ❤️❤️⭐️⭐️⭐️⭐️❤️❤️⭐️. ",
+		],
+		date: "2025-04-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 138,
+		content: [
+			"Yo ando desde ayer y todo el fin de semana haciendo mi prueba técnica de Snappr y tú la más hermosa me trajiste arroz chino para el almuerzo. Cómo te quiero ❤️❤️❤️.",
+		],
+		date: "2025-04-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 139,
+		content: [
+			"Hoy estuvimos de paseo en el topolino hasta la Lupe a llevarles la dotación. Estuvo bien bonito el viaje y el almuerzo 😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨. Y además la señora Milena nos enseñó a hacer chamoy AAAAAAAAAA 😭😭. ",
+		],
+		date: "2025-04-30T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 140,
+		content: [
+			"Hoy vimos Jump Street y estuvo severa. Y volvimos a hacer avena juntos para el desayuno de mañana ❤️. ",
+		],
+		date: "2025-05-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 141,
+		content: [
+			"Fuimos al cine, ¿puedes creerlo? Jajaja 🍿🍿🍿🍿. Vimos la de Until Dawn y estuvo chimba y compramos gomitas y entonces salimos y estabas asustada y vinimos a casa y nos vimos al Rubius jugando PT y nos dormirnos y todo muy mágico. ",
+		],
+		date: "2025-05-05T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 142,
+		content: [
+			"Me quedé en tu casita y eso siempre es especial. Hiciste huevos costeños jajaja -con queso- para el desayuno y salimos juntitos, tú a tu yoga y yo a mi casa.",
+		],
+		date: "2025-05-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 143,
+		content: [
+			"Como se nos entró la goma del cine y las películas y eso, nos vimos la de la Isla Siniestra y estuvo seeeeeevera 👌👌👌. Lástima que te quedaste dormida faltando como quince minutos de película.",
+		],
+		date: "2025-05-07T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 144,
+		content: [
+			"Como mañana me voy para Medellín nos vimos saliendo del trabajo y nos quedamos juntos en mi camita. Sí estuvo muy triste irme y dejarte ahí solita durmiendo pero a la vez me hace feliz sentirte tan cerquita y tan parte de mi vida. Paisas hijueputas jaja :( 🛫. ",
+		],
+		date: "2025-05-11T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 145,
+		content: [
+			"HOY-ABRÍ-MI-CAJA-DE-EMERGENCIAS-AAAAAAAAAA cómo la quiero y como la extraño yo por acá tan lejos 😭❤️❤️🥰🚔🚔⭐️❤️🍿🥰🚔. ",
+		],
+		date: "2025-05-12T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 146,
+		content: [
+			"Yo sigo por acá en Medellín pero con todo y lo que nos gusta hacernos videollamada, seguimos llamándonos en la noche a contarnos nuestro día y yo te siento bien cerquita. Ya mero regreso, mi guapa 🛬. ",
+		],
+		date: "2025-05-14T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 147,
+		content: [
+			"Hoy tuvimos una cita para ir a ver esta de destino final al cine y yo me puse guapo para ti pero el que te dio la sorpresa de las boletas fue el pollito 🐥🐥🐥🐥🐥. Estuvo chimba chimba y comimos de los dulces esos re severos como de yogurt y nos quedamos juntos, como debe ser ❤️.",
+		],
+		date: "2025-05-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 148,
+		content: [
+			"Me quedé en tu casita de incógnito, como los ninjas 🥷. Cuando llegué me diste un huevo jajaja y una infusión de té que me hiciste porque huelo a chunchullo y yo me muero de amor 🥰🐥🥷. ",
+		],
+		date: "2025-05-20T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 149,
+		content: [
+			"Cita médica en la mañana y mucha tarea en la noche. Almorzamos en wok y estuvo rico y nos regresamos caminando hacia tu universidad y me dejaste en el sitp para ir a la fábrica así bien romántico 🚐.",
+		],
+		date: "2025-05-22T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 150,
+		content: [
+			'Y entonces tu mamá dice: "Laura para eso de la cicla, para eso de la motricidad nunca sirvió". JAJAJA. Eso mientras almorzábamos lentejas en tu casita con ella. 🚲🚲🚲🚲🚵🚵‍♀️🚵‍♀️🚵‍♂️🚴🚲🚲. ',
+		],
+		date: "2025-05-24T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 151,
+		content: [
+			"Hoy nos vimos Lilo & Stitch con Juan, la Chica y Carreño 🧌 (<— imagina que ese es Stitch jajaja). Y además te quedaste en mi casita después de eso. Gracias por invitarme a tu grupito y a compartir con ellos.",
+		],
+		date: "2025-05-28T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 152,
+		content: [
+			"pobreLauralesacaronsangre:(. Y fuimos al Unicentro a cambiar tus Vans y entonces te ves bien punk y ready para el trabajo. Y como me dio moco, en la nochecita me hiciste aguamiel con jengibre y cómo te quiero 🫚🫚🫚.",
+		],
+		date: "2025-05-29T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 153,
+		content: [
+			"Hoy fue la final de la champions y fuimos al monkey a “ver el partido” pero mientras tanto yo te veía a ti. Más linnnnnnda mi guapa.",
+		],
+		date: "2025-06-01T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 154,
+		content: [
+			"Llegamos del monkey juntos tan tan cansados que nos dormimos rapidito. El lunes te fuiste temprano a casa que a hacer tarea y así ya no es divertido 😒.",
+		],
+		date: "2025-06-02T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 155,
+		content: [
+			"Fuimos a tu cita al dermatólogo allá en El Bosque en la tardecita y saliendo pasamos por instituto donde yo dictaba clases y comimos la sopa de cebolla esa re severa en Chez Jack. Y un pescado rico también. Me hizo muy feliz que estuviéramos allá porque recuerdo que descubrimos el restaurante con Valeria recién yo te estaba conociendo y desde ahí quería que viniéramos juntos ♥️.",
+		],
+		date: "2025-06-03T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 156,
+		content: [
+			"Llegaste en la nochecita a la fábrica con una gelatina DE-LI-CI-OOOOOO-SA con dibujo de 🌸 y me ayudaste a poner los herrajes en el uniforme de Jean. AH Y ADEMÁS VISITAMOS A ARTURO Y ESTÁ GRANDOTE Y PANZÓN 👶👶👶👶👶.",
+		],
+		date: "2025-06-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 157,
+		content: ["Día de tintura allá en Cajicá con tus tías. Esssstilo 💅."],
+		date: "2025-06-05T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 158,
+		content: [
+			"Nos vimos saliendo del trabajo para ir a casa a dormir y te quedaste y entonces al otro día (sábado) fuimos a las ferias y compramos tus boticas para Buenos Aires y además el hilo para mi cortina y terminamos comiendo hamburguesas de pescado en la Begonia 🙂‍↔️🙂‍↔️🙂‍↔️🙂‍↔️. ",
+		],
+		date: "2025-06-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 159,
+		content: ["Guayaquil."],
+		date: "2025-06-09T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 160,
+		content: ["BA 1 (306)."],
+		date: "2025-06-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 161,
+		content: ["BA 2."],
+		date: "2025-06-11T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 162,
+		content: ["BA 3."],
+		date: "2025-06-12T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 163,
+		content: ["BA 4."],
+		date: "2025-06-13T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 164,
+		content: ["BA 5. "],
+		date: "2025-06-14T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 165,
+		content: ["De BA a Colonia (Agustina) en ⛴️. "],
+		date: "2025-06-15T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 166,
+		content: ["Colonia 2. "],
+		date: "2025-06-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 167,
+		content: ["Colonia 3 y llegamos a Montevideo (1006). "],
+		date: "2025-06-17T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 168,
+		content: [
+			"Nos caminamos todo el centro de Montevideo y se nos acabó el paseo :(",
+		],
+		date: "2025-06-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 169,
+		content: [
+			"Llegamos a casita. Y como yo traía antojo de pollo, fuimos del aeropuerto a American 🍗🍗🍗.",
+		],
+		date: "2025-06-19T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 170,
+		content: [
+			"Hoy fue tarde de sancocho allá donde tus tías. Y de camino pasamos a visitar a Arturo y estaba mi mamá y entonces nos dieron arroz con pollo del que hace Josué.",
+		],
+		date: "2025-06-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 171,
+		content: [
+			"HOY-SALIMOS-CON-KWAN AAAAAAAAAAA. Tomamos aguadepanela allá en vía a la Calera. Y fuimos con Mathiu.",
+		],
+		date: "2025-06-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 172,
+		content: [
+			"Nos vimos un ratito en la noche para celebrar con el pollo con ensalada de mango del Wok que entraste a la Inmaculada. Mi guapa ♥️🌸, me siento tan tan orgulloso de ti.",
+		],
+		date: "2025-06-24T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 173,
+		content: [
+			"Me invitaste a ver la película de la fórmula 1 y yo muy feliz porque me escuchaste hace dos meses cuando te hice la pataleta y invitaste pero entonces triste porque no nací rico para ser piloto.",
+		],
+		date: "2025-06-25T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 174,
+		content: [
+			"Como estoy teniendo mi semana de mierda con los paisas esos hjijueputas (jajaja, va a dar risa cuando leamos esto años después), me visitaste en la nochecita y nos quedamos juntos así bien romántico y vimos la del dragón para poder ir al cine a ver la nueva del live action y me gustó; yo digo que tenía que haber muerto Hipo, que quedara como un mártir, pero así y todo me gustó 🐉🐉🐉🐉.",
+		],
+		date: "2025-06-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 175,
+		content: [
+			"Una visita rápida al Monkey para verte a ti con la excusa de ver el partido del Flamengo. Y además perdieron.",
+		],
+		date: "2025-06-29T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 176,
+		content: [
+			"Pasé en la nochecita a saludarte después del trabajo y terminé amaneciendo allá en tu casa jajaja. Todo mal. Mi guapa ❤️.",
+		],
+		date: "2025-07-01T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 177,
+		content: [
+			"Hoy nos vimos la de cómo entregar a tu dragón pero la nueva, la live action, me invitaste y yo muy agradecido. Estuvo buena buena 🙂‍↔️🙂‍↔️. Y además antes del cine fui a encontrarme contigo allá donde tus días y comimos mogolla con chocolate.",
+		],
+		date: "2025-07-02T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 178,
+		content: [
+			"Hicimos noche de arepitas quesudas y nos quedaron reeeee severas 🫓🫓🫓🫓. Mucho talento. Y además te quedaste acá en mi casa y nos levantamos bien tarde.",
+		],
+		date: "2025-07-03T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 179,
+		content: [
+			"¿Viste cómo ya cumplimos un año desde esa primera vez que te vi y me gustaste? 🫶. Estuvimos un ratito por allá en el Monkey nomás viéndote yo bien enamorado y te llevé a casita. El Monkey no va a ser lo mismo sin ti :(",
+		],
+		date: "2025-07-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 180,
+		content: [
+			"Como hoy cumplimos un año de nuestra primera primera cita 🎂🎉 y además te tocó trabajar el lunes, quise que reviviéramos ese día: pasé y te recogí en el camperito saliendo del trabajo, fuimos hacia el McDonald’s de Chía por la Calera, nos comimos unas papitas y llevamos el adivina quién. La única diferencia fue que hoy nos quedamos juntitos, no como la vez pasada que te llevé a tu casita.",
+		],
+		date: "2025-07-07T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 181,
+		content: [
+			"Íbamos a ir a visitar a Juli a la BMW Store peeeeeero él se embolató y entonces terminamos allá donde tus tías tomando chocolate y haciendo la visita. Cómo me gusta verte así de contenta donde las tías, cómo las quieres y cómo te quieren ellas y cómo te quiero yo a ti ♥️.",
+		],
+		date: "2025-07-08T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 182,
+		content: [
+			" Hoy sí fuimos a vistar a Juli y la pasamos bueno bueno, él nomás se la pasaba preguntándonos que cómo nos habíamos hecho novios y así jajaja. Y salimos motivados llenos de arcoíris por su discurso coach y fuimos a comer al Wok y nos regresamos a tu casita.",
+		],
+		date: "2025-07-09T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 183,
+		content: [
+			"Como ya me voy esta noche a México con mi mamá a ver al sayocean porfindioshacemuchonopasabaesto, viniste a mi casa e hicimos arepitas quesudas con aguadepanela con mi mamá y con Mathiu 🫓🫓🫓. Muy fan de que hagamos arepas juntos. ¿Y viste cómo mi mamá se trajo la cobija que le regalaste que para no sentir frío en el avión?",
+		],
+		date: "2025-07-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 184,
+		content: [
+			"Yayayayaya ya volví de ver al sayocean y entonces nos vimos y nos besamos y fuimos con Valeria y a Arturo al parque de Toy Story allá en el Colina y se pasó muy bueno y comimos Goyurt con ella (Arturo no porque se durmió) y luego vinimos a la casa y hablamos mucho y nos besamos más y terminamos viendo la película de Yo Antes de Ti y qué triste que el William este se murió pero mejor jajaj. Te extrañé mucho, mi guapa 🌸.",
+		],
+		date: "2025-07-15T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 185,
+		content: [
+			"Resultamos por coincidencia almorzando con Lili y Juan en el Ana y hablamos harto y Lili gastó tinto después y de ahí nos fuimos a tu casita tú a seguir con tu curso de Excel (cómoestoydeenamoraoahoraqueandashaciéndolealexcel) y yo al trabajo. Y luego nos quedamos hasta bien tarde hablando cositas y ya me tocó irme porque tengo que madrugar. ",
+		],
+		date: "2025-07-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 186,
+		content: [
+			"Nos encontramos con mi mamá y Carmencita y terminamos dándole a la cocoa allá donde Valeria con Lili y Juan y Arturo y Josué y todos ☕️, nosotros llevamos el queso y los bombonbunes. Y después llevamos a mi mamá a su casa y nos arrunchamos tú y yo en la mía y nos levantamos bien tarde 🙂‍↔️.  AH, y además fuimos a Chopinar y te encantó y además fuimos a que manejaras un ratico el campero ahí en floresta y bajaste las rampas como una ⭐️🚗.",
+		],
+		date: "2025-07-17T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 187,
+		content: [
+			"HOY VINIERON DE VISITA TUS TÍAS Y TÚ MAMÁ que a conocer la casa mía AAAAAAAAA ❤️❤️❤️❤️🙂‍↔️😍❤️🥷🥷⛴️🚚. ",
+		],
+		date: "2025-07-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 188,
+		content: [
+			"Todos requetetristes porque fue tu último día de trabajo en el Monkey. Mentiras, todos muy felices pero sí va a estar bien raro ir y no verte ahí :(. Habrá sido paila el trabajo y Xiomara y Jhon y lo que sea, pero el Monkey nos dio la oportunidad de conocernos 🚚. ",
+		],
+		date: "2025-07-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 189,
+		content: [
+			"Entonces con Mathiu las recogimos a ti y a Angie en la tarde noche para ir a La Lupe y vieras lo linda que te veías armándote tus mini tacos 😭😭😭😭❤️❤️❤️❤️❤️🌮. ",
+		],
+		date: "2025-07-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 190,
+		content: [
+			"EL-SAYOCEAN-ANUNCIÓ-AHORASÍCONFIRMADO100%REALKNOFAKE-QUE-VIENEN-A-COLOMBIA-AAAAAAAAAAAAA😭😭😭😭🐬🐬🐬🐬🐬🐬. Y para celebrarlo tú y Angie se hicieron unas arepas re pero RE cveras con chocolate. ",
+		],
+		date: "2025-07-24T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 191,
+		content: [
+			"En tu primer viernes libre Mire que nos levantamos re re re tarde y almorzamos allá en el Ana y nos encontramos a Lili y Juan y le dimos al chismesito y luego fuimos a tu casa y tu con el Excel y yo con el trabajo y qué romántico y luego hablamos mucho como hasta la media noche y ya me tocó irme porque hay que madrugar :(.",
+		],
+		date: "2025-07-25T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 192,
+		content: [
+			"Hoy fuimos a Hanashi y vieras cómo te veías de guapetona con los 🥢. Estuvo muy bueno el almuerzo chas gracias. Y a mí guapa como que le dio una gripa dura dura diosmio no vayas a pelar 🤧. ",
+		],
+		date: "2025-07-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 193,
+		content: [
+			"Como es el primer domingo en quién sabe cuánto que estás en tu casita y no trabajando, tus tías nos invitaron a almorzar y fuimos toda la familia + yo (miguapacómotequiero), estuvimos tu mamá y tu papá y la tía Yanis y la tía Soraya y Juan y Nata, hasta Nata fue. ¿Y sabes qué fue lo más lindo? Que hicieron frijoles pero no con pezuña sino con pecho porque saben que entonces yo con la pezuña le inflo. Jajaja 🫃.",
+		],
+		date: "2025-07-27T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 194,
+		content: [
+			"HOY PORFIN FUIMOS A COMPRAR JEANS Y CALZONES 👖👖👖. Jajaja. Y nos divertimos mucho y la pasamos muy bueno y también nos comimos un heladito y por andar de callejeros en la noche se me pegó tu gripa y pailas, estoy que pelo. Estoy que pelo pero bien fashion con mi nueva ropa 💅. ",
+		],
+		date: "2025-07-28T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 195,
+		content: [
+			"Pues efectivamente nos dio por el culo la gripa jajaja. Pero así y todo nos vinimos de vagabundos tú, Mathiu y yo al chopinar a cenar y estuvo 😮‍💨😮‍💨🙂‍↔️🙂‍↔️🙂‍↔️😮‍💨🙂‍↔️🌮🤧. ",
+		],
+		date: "2025-07-29T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 196,
+		content: [
+			"Don Luna disque que nos trajo a tu familia y a mí también cositas de su viaje al eje cafetero 😭😭😭😭😭. Entonces pasamos en la tardecita a visitar a tus tías y a reclamar el mercado que tenía yuca y chorizos y aguacates que le vamos a dar a Arturo y plátanos y un queso re re re c-vero. Muy querido Don Luna ❤️. Y además salimos de donde tus tías con tu papá y fuimos a recoger a tu mamá y me terminé quedando yo arrunchado en tu casita hasta el otro día porque soy vagabundo.",
+		],
+		date: "2025-07-30T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 197,
+		content: [
+			"¿Recuerdas que puse ayer que me quedé en tu casita bien vagabundo? Pues me agarró el tarde porque tenía que estar en la fábrica a las 9:00am para grabar la entrevista esa re chimba que nos hizo Sindy pero me dieron las 7:45am en tu casa dios jajaja. Y lo peor es que entrando así bien amanecido a mi casa me encontré a Mathiu y me pilló infraganti 🕵️‍♂️🕵️‍♂️🕵️‍♂️. Lo bueno es que como vine en la bici para que me rindiera, tuvimos excusa para vernos en la nochecita que para recoger el mercado de Don Luna pero mentira, todo fue un sofisticado plan tuyo para que nos quedáramos juntitos en mi ksa. (Nota: seguimos re apestados, mas yo que tú, a ti ya te va pasando). ",
+		],
+		date: "2025-07-31T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 198,
+		content: [
+			"Pues imagínate que hoy íbamos a celebrar el cumpleaños de Arturo pero como está malito lo cancelaron y terminamos tú y yo comiendo carne oreada bien romántico allá en el Chicamocha 🙂‍↔️🙂‍↔️🙂‍↔️🙂‍↔️🙂‍↔️. Me hace muy feliz que te guste tanto y la yuca y la arepa de maíz.",
+		],
+		date: "2025-08-07T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 199,
+		content: [
+			"Mi pobre Laura se metió una lavada terrible de camino a la casa mía :(. Lo bueno fue que comimos pizza de Papa John's y nos vimos la película de Bob Esponja. Y además en la nochecita nos pusimos a darle al chisme con Mathiu y Juan y todo lo de su nuevo pelito Karen y terminamos comiendo salchichas alemanas.",
+		],
+		date: "2025-08-08T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 200,
+		content: [
+			"Como andas juiciosa dándole al estudio, nomás nos vimos un momento pequeñito mientras me prestaste tu parqueadero para yo ir al titán a comprar el roku (pura excusa para verte eso de dejar el carro en tu casita). Te di tu torta de almojábana que traje de cota y un besote. ",
+		],
+		date: "2025-08-09T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 201,
+		content: [
+			"Hoy nos vimos la del viernes de locos y está buenísimaaaaaa AAAAAA. Me gustó resto. Y además almorzamos chino y nos terminamos de ver Piratas del Caribe ya toda la saga y re triste porque mataron a Barbosa pero quedó como un héroe entonces yo nomás lloro 😭😭😭😭😭. Y me hiciste la prueba esa wise allá en mi sala y eres una ⭐️ y además vamos a tener una cita para armar nuestro gato lego. ",
+		],
+		date: "2025-08-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 202,
+		content: [
+			"Hoy celebramos el cumpleaños de Arturo y fuimos muy felices alistado tus regalos, empacando el triciclo y estando juntos allá. ",
+		],
+		date: "2025-08-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 203,
+		content: [
+			"Nos vimos la película del poeta en el cinemark y la verdad estuvo muy buena muchas gracias. Y hoy llegó nuestra violeta 🪴 a casa. ",
+		],
+		date: "2025-08-30T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 204,
+		content: [
+			"¿Puedes creer que vino el rebelmate a Colombia y que fuimos juntos a verlos? 😭😭😭😭. ¿Pero y para cuándo un concierto tuyo? Y no tocaron caótica :(",
+		],
+		date: "2025-09-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 205,
+		content: [
+			"Hoy nos hicimos un almuercito de tilapia con limón bien severo y además nos vimos el Conjuro 1 y estuvo bien buena. Y te quedaste y te acompañé a la clínica, llegamos puntuales.",
+		],
+		date: "2025-09-10T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 206,
+		content: [
+			"¿Viste cómo no soy crack del fútbol? Jaja :(. Pero bueno, estuvimos con Arturo y Valeria allá en la cancha y luego cenamos en el Wok. Y además te quedaste y nos levantamos tarde e hicimos arepitas para el desayuno. Todo muy bueno y rico muchas gracias.",
+		],
+		date: "2025-09-13T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 207,
+		content: [
+			"Te hiciste UN sudado 👌👌👌👌👌🙂‍↔️🙂‍↔️🙂‍↔️😮‍💨😮‍💨😮‍💨😮‍💨😮‍💨. Muchas gracias por hacerme almuerzo con amor. Y además nos vimos La Monja pero estuvo medio huesuda.",
+		],
+		date: "2025-09-16T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 208,
+		content: [
+			"Hicimos nuestro primer intento de hacer pan, y de remolacha además, y nos salió re mal jajaja :(. Lo bueno es que nos estamos alistando ahora para irnos a México a ver a Vale y al sayocean 🛫🛫🛫🛫. ",
+		],
+		date: "2025-09-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 209,
+		content: [
+			"Hoy conociste al Jaguar Negro y yo muy feliz. Y además te lo pasaste bombas en el mariposario. Y apenas llegamos a México comimos tortas y conocimos a don Joel de las tortas y muy querido porque él quiere a los colombianos y terminamos el día en el concierto del sayocean en Izcalli imagínate. Muy bueno todo muchas gracias 🐆🦋🦋🐆. ",
+		],
+		date: "2025-09-19T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 210,
+		content: [
+			"HOY FUE EL CONCIERTO DE VALE 😭😭😭😭😭. Todo muy bello. El evento de Coca-Cola estuvo severo y además probamos los tacos de carnitas y estaban 😮‍💨😮‍💨🙂‍↔️🙂‍↔️🙂‍↔️🙂‍↔️😮‍💨😮‍💨🙂‍↔️🙂‍↔️. ",
+		],
+		date: "2025-09-20T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 211,
+		content: [
+			"Ya nos devolvimos a Colombia esta noche pero alcanzamos a ir a ver al Ajolote y a que tú probaras el taco de pastor, del puro trompo, y estuvo buenísssssimo 🌮. Así y todo lo del policía corrupto, la pasamos muy bueno en nuestro viaje express a México. ",
+		],
+		date: "2025-09-21T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 212,
+		content: [
+			"Hoy fuimos a visitar a mi mamita y nos dio almuerzo y muy rico todo: hizo crema de champiñones con pollito y plátanos en la freidora; nosotros llevamos el postre. La pasamos bueno y nos mostró fotos mías de bebé y así. Mi mamita. ",
+		],
+		date: "2025-09-23T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 213,
+		content: [
+			"Visitamos a Arturo y a Valeria y les llevaste monitas sin azúcar y sacamos a los perros y le dimos al chismesito y todo muy bueno muchas gracias por echarle ganas.",
+		],
+		date: "2025-09-29T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 214,
+		content: [
+			"Hoy fuimos con mi mamá y Lili a almorzar a Lupe. Tú pediste un steak Lupe y mi mamá unas quesadillas y Lili un alambre y hablamos lo más de bueno y aguantamos harta hambre jajaja, nos agarró el tarde re feo. Y ya después fuimos a casa y nos despedimos porque me fui yo para Guadalajara. Pero vuelvo pronto, no me demoro, voy y le tomo una foto a los patos y me regreso.",
+		],
+		date: "2025-10-04T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 215,
+		content: [
+			"Pues mire que le voy a llevar su pato. Y sus dulces y su pan de muerto. Es mi último día en Guadalajara en este viaje y aunque no vinimos juntos y no nos podemos ver, sí me emociona llevarte tus dulces y cositas y quiero que quede aquí en nuestras notas. También me saqué hartos dulces del hotel jajaja.",
+		],
+		date: "2025-10-06T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 216,
+		content: [
+			"Hoy volví a donde tus tías AAAAAAAAAA. Muy lindas ellas, así y todo lo que pasó me hicieron sentir bienvenido y como en casa. Comimos pan de muerto con tinto y tu tía nos contó hartas historias y todo muy bueno muchas gracias. Y te recogí en el Porsche ahí en la universidad así bien alerta ",
+		],
+		date: "2025-10-09T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 217,
+		content: [
+			"Fuimos a comer ceviche a cota pero al campestre y entonces la cabra se quería comer tu pantalón. Jajaja 🐐🐐🐐🐐🐐. Más linda la cabra. Y además vimos las casas esas gomelas de Amarilo que Alcalá y la otra.",
+		],
+		date: "2025-10-12T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 218,
+		content: [
+			"Cómo la quiero: el cumpleaños más lindo de la vida mía con el desayuno de dinosaurio y la torta de gelatina y mi capibara y mi súper cámara 9-11 😭😭😭😭😭😭❤️. ",
+		],
+		date: "2025-10-18T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 219,
+		content: [
+			"Imagínese que hoy nos vimos casi todo avatar y está buenísima pero además nos hicimos palomitas con papas de pollo y todo muy bueno muchas mgracias 😮‍💨🙂‍↔️. 😏😏😏😏😏.",
+		],
+		date: "2025-10-20T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 220,
+		content: [
+			"Almorzamos juntos así express las hamburguesas ricas con piña del metrópolis. Muy rico todo muchas gracias y además nos compramos galguerías. Fue algo pequeñito pero estuvo bueno.",
+		],
+		date: "2025-10-22T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
+	{
+		n: 221,
+		content: [
+			"Imagínese que nos vimos el cadáver de la novia y muy triste todo y me gustó harto y 😭😭😭😭 y muy bonita la Victoria y qué gei que el man se llame Víctor jajaja 💀.",
+		],
+		date: "2025-10-26T10:01:42.834Z",
+		media: [],
+		title: "",
+	},
 ];
