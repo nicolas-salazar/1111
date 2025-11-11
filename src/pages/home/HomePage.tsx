@@ -89,7 +89,7 @@ export const HomePage = () => {
 
 			<div className="flex w-full flex-col gap-2">
 				<h2 className="px-4 text-right font-bold text-2xl text-foreground">
-					Aquí, todas nuestras 69 citas 👀✨⭐️😱🧡
+					Aquí, todas nuestras {ENTRIES.length} citas 👀✨⭐️😱🧡
 				</h2>
 
 				{ENTRIES.map((entry) => (

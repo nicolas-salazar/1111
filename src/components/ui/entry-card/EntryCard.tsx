@@ -45,7 +45,7 @@ export const EntryCard = ({
 						}}
 						showCursor={true}
 						text={content.join("\n\n")}
-						typingSpeed={4}
+						typingSpeed={45}
 					/>
 				</div>
 
