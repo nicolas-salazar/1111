@@ -39,6 +39,7 @@ export const EntryCard = ({
 						className="hyphens-auto text-left text-l text-muted-foreground leading-relaxed"
 						cursorCharacter="|"
 						initialDelay={1000}
+						key={`entry-card.typewriter.${entry.n}`}
 						loop={false}
 						onSentenceComplete={() => {
 							setTimeout(() => setTypewriterDone(true), 250);
