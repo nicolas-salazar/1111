@@ -1,7 +1,7 @@
 type RawEntry = {
 	content: string[];
 	date: string;
-	media: Array<{ type: string; src: string }>;
+	media: Array<{ owner: "Nicolas" | "Lau"; src: string; type: string }>;
 	title: string;
 };
 
@@ -19,6 +19,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_4374.JPEG?alt=media&token=1dbff871-d535-4403-96d2-bd14ced7f672",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Nuestra primera primera cita ❤️",
@@ -33,6 +34,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FD15693EC-2FA9-4EC2-835A-53D4C726E72A.JPEG?alt=media&token=30243af0-5881-4baa-8cf8-64a674f16537",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Desayunamos en la Virgilio Barco",
@@ -47,6 +49,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2F6e9ff850-c78f-4279-823e-df9f5f40621e.JPEG?alt=media&token=7d953da5-c380-4f09-9795-70e19926f119",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "La cena :)",
@@ -61,6 +64,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2F6894fb9b-3c9c-4115-8ac3-5b8298fede70.MP4?alt=media&token=7c93fbcb-010a-4a65-9341-713205054511",
 				type: "video",
+				owner: "Nicolas",
 			},
 		],
 		title: "Cenamos en casa, juntos",
@@ -75,6 +79,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_5170.JPEG?alt=media&token=3d92b7f4-90e3-46eb-b07b-069cf65e9349",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Ping pong y asado",
@@ -85,7 +90,13 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 Obviamente aquí se me hizo bolita el corazón: tú tomaste la iniciativa este vez y me invitaste a mí. Recuerdo ir saliendo del cumpleaños de Arturo para encontrarnos en la estación e ir juntos al evento; ese día sentí que tal vez sí podía pasar algo entre nosotros.",
 		],
 		date: "2024-08-07T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				owner: "Lau",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%201.54.57%20PM.mp4?alt=media&token=9c96f605-79ca-4942-88bf-5bfa47c5f39f",
+				type: "video",
+			},
+		],
 		title: "Jam Rock en Chapinero",
 	},
 	{
@@ -96,6 +107,7 @@ const RAW_ENTRIES: RawEntry[] = [
 		date: "2024-08-17T10:01:42.834Z",
 		media: [
 			{
+				owner: "Lau",
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_6352.JPEG?alt=media&token=9ca383fe-4737-4236-9abc-5d1bced9641c",
 				type: "image",
 			},
@@ -119,6 +131,7 @@ const RAW_ENTRIES: RawEntry[] = [
 		date: "2024-08-27T10:01:42.834Z",
 		media: [
 			{
+				owner: "Lau",
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_7815.MOV?alt=media&token=35ad997c-8469-4dda-98d3-cedb345ab09c",
 				type: "video",
 			},
@@ -131,7 +144,18 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 La primera vez que nos paró un policía jajaja. Pero bueno, hoy quedan sólo risas. También tu primer Guatavizado; mareada y todo pero la pasaste bueno, ¿no?",
 		],
 		date: "2024-09-10T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				owner: "Lau",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%201.57.19%20PM.mp4?alt=media&token=8ad68865-9dbd-4665-a45d-54137b040e6c",
+				type: "video",
+			},
+			{
+				owner: "Lau",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%201.57.21%20PM.mp4?alt=media&token=2c90353e-756e-4b82-9436-771f2cb3ff3f",
+				type: "video",
+			},
+		],
 		title: "Ceviche donde Diana",
 	},
 	{
@@ -143,6 +167,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8228.JPEG?alt=media&token=fce2bccc-6dff-4886-a640-298babe24896",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "La luna de la Cosecha 🌕",
@@ -152,7 +177,13 @@ const RAW_ENTRIES: RawEntry[] = [
 			"Me invitó a Quiebra Canto. Y bueno, conocí a medio mundo tuyo: allí estaban Juan; Angie; Natalia y Palita.",
 		],
 		date: "2024-09-19T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				owner: "Lau",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%201.59.10%20PM.jpeg?alt=media&token=d27b7d34-6d2a-45c6-9473-5cfc07b8fa5b",
+				type: "image",
+			},
+		],
 		title: "Quiebra Canto",
 	},
 	{
@@ -162,6 +193,7 @@ const RAW_ENTRIES: RawEntry[] = [
 		date: "2024-09-21T10:01:42.834Z",
 		media: [
 			{
+				owner: "Lau",
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8370.JPEG?alt=media&token=0c25efba-a429-48ce-845a-c5e51c72218e",
 				type: "image",
 			},
@@ -176,11 +208,12 @@ const RAW_ENTRIES: RawEntry[] = [
 		date: "2024-09-30T10:01:42.834Z",
 		media: [
 			{
+				owner: "Lau",
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8522.JPEG?alt=media&token=2130edea-86ff-4ee6-aee1-4868e83d4df4",
 				type: "image",
 			},
 		],
-		title: "Las ferias",
+		title: "Conociste a Lili y fuimos a Las Ferias",
 	},
 	{
 		content: [
@@ -193,6 +226,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2F880ae8b6-39f1-45f2-8f72-cf3e52954a82.JPEG?alt=media&token=7b9c32ed-e74f-4520-ad27-44427664c2c6",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				owner: "Lau",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.09.33%20PM.mp4?alt=media&token=ded223b5-fa6b-4cc9-bc19-f95f9ecd2245",
+				type: "video",
 			},
 		],
 		title: "Autódromo",
@@ -207,6 +246,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8602.JPEG?alt=media&token=9980bd0a-cb5e-4f33-ac39-480aa344e905",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Nuestro primer beso",
@@ -221,6 +261,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8604.JPEG?alt=media&token=bf03d442-23fb-4d87-804a-23266cccfde7",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "No sé cómo mostrar dónde me duele",
@@ -237,6 +278,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8726.JPEG?alt=media&token=4bfd1db3-3f39-4243-a318-c68f7e2bab7d",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8726.JPEG?alt=media&token=4bfd1db3-3f39-4243-a318-c68f7e2bab7d",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "Ambivalencia",
@@ -250,6 +297,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8735.JPEG?alt=media&token=1b3b6182-4e5e-448d-bb70-0c09696b6250",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "McDonald's a las 03:45am",
@@ -262,8 +310,9 @@ const RAW_ENTRIES: RawEntry[] = [
 		date: "2024-10-14T10:01:42.834Z",
 		media: [
 			{
-				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8735.JPEG?alt=media&token=1b3b6182-4e5e-448d-bb70-0c09696b6250",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.14.03%20PM.jpeg?alt=media&token=c659c524-e2ae-4705-b00e-ce69e2d50139",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "11/11 - 0",
@@ -278,6 +327,17 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8847.JPEG?alt=media&token=c8454c6f-b5dd-4693-879a-9d785386cfaf",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.16.30%20PM.mp4?alt=media&token=4a8c3e65-6d93-4b34-a094-5564959bf22a",
+				type: "video",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.17.55%20PM.mp4?alt=media&token=71a3faef-e7a1-4b40-a41c-82a47ac6335c",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Guatavitazo con amigos",
@@ -292,6 +352,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_9002.JPEG?alt=media&token=41273fb1-dbb0-40ab-9ed7-0fee2542b3e2",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.23.14%20PM.mp4?alt=media&token=18090e47-bc78-4482-914e-b83bc241c2a9",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Cumpleaños feliz",
@@ -325,13 +391,14 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_9078.MP4?alt=media&token=4c3d9dcf-c820-4b84-bbc9-0b4ef386f121",
 				type: "video",
+				owner: "Nicolas",
 			},
 		],
 		title: "Monopoly y Jimny",
 	},
 	{
 		content: [
-			"Vamos a Cine Paraíso a ver a Montessori. Hablamos de nosotros, de su ex, de la mía, del amor. Yo viajaba a méxico en la madrugada, hasta me ayudó a empacar maleta, pero preferimos aplazar el vuelo un día y quedarnos juntos. ¿Será que sí va a CABA?",
+			"Vamos a Cine Paraíso a ver a Montessori. Hablamos de nosotros, de su ex, de la mía, del amor. Después de la película fuimos a un restaurante hippie que a Laura le encantó y pidió unas hamburguesas y no dejamos propina y Laura se puso brava y le dio pipí mientras esperábamos el uber pero no podía volver al baño del restaurante porque no dejamos propina jajaja.\n\nYo viajaba a méxico en la madrugada, hasta me ayudó a empacar maleta, pero preferimos aplazar el vuelo un día y quedarnos juntos. ¿Será que sí va a CABA?",
 			"💬 Mire, desde aquí yo ya andaba haciendo planes malvados de comprarle a la brava su vuelo a Buenos Aires.",
 			"💬 Se me llena tanto tanto el corazón al pensar en esas primeras veces que nos quedamos juntitos.",
 			"💬 Cómo me gustaban esos zapatotes tuyos.",
@@ -341,6 +408,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_9087.JPEG?alt=media&token=d4b996f0-88ff-46a9-87aa-15e8f0ef30c3",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.27.15%20PM.mp4?alt=media&token=62dc733d-59e7-49f7-904d-7063e3163230",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Montessori",
@@ -355,6 +428,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_9093.JPEG?alt=media&token=5f6e740e-d315-4c7e-973d-4f7fccc38821",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.31.11%20PM.jpeg?alt=media&token=5a0ebc5f-e3de-48aa-8290-068043bab366",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "Torta de Zanahoria para Mexicali",
@@ -363,12 +442,24 @@ const RAW_ENTRIES: RawEntry[] = [
 		content: [
 			"Hoy fue nuestra cita 26, sólo que no era una cita, nomás llegué de méxico de sorpresa a la cafetería turquesa. Terminamos comprando capas y yendo a la fiesta esta de halloween de Harry Potter. Hablamos mucho en tu cuarto, en tu cama, con tus luces cálidas mágicas y terminamos durmiendo juntos en mi casa. Qué cita 26 nuestra cita 26 ❤️.",
 			"💬 El 26 estuvo muy presente en esos días porque recuerdo que yo me la pasaba botándote factos de números para enamorarte. ¿Cuál es el facto del 26 te preguntarás leyendo esto? Bueno, el único de todos los enteros que está justo por detrás de un cuadrado perfecto y antes de un cubo perfecto.",
+			"💬 Mireeeeeee el Pan de Muerto.",
 		],
 		date: "2024-10-29T10:01:42.834Z",
 		media: [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0144.JPEG?alt=media&token=7ff2c98d-6954-4d43-900f-a1893eed88f8",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.36.24%20PM%20(1).jpeg?alt=media&token=bdf0f526-1bdf-47a1-80fc-b5ed5bebbb51",
+				type: "image",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.36.24%20PM.jpeg?alt=media&token=423fa442-9a53-49c6-b00f-669a968337f2",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "26",
@@ -382,6 +473,17 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0193.JPEG?alt=media&token=778e55b1-f109-42dd-8732-9161ded1a7cd",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.38.52%20PM.mp4?alt=media&token=1ce769b0-4a5e-43a1-9040-e20bd397a1f4",
+				type: "video",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.38.59%20PM.mp4?alt=media&token=9ee5ff3d-b702-4033-b645-5c3994912c44",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Evento pipirisnais en Porsche",
@@ -401,8 +503,14 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 A mira, nuestra primera prueba de embarazo. Jajaja 🤦‍♂️.",
 		],
 		date: "2024-11-07T10:01:42.834Z",
-		media: [],
-		title: "Un día, muchas cosas",
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.41.07%20PM.mp4?alt=media&token=226944c2-390e-41c8-9684-9f2d72e25e0a",
+				type: "video",
+				owner: "Lau",
+			},
+		],
+		title: "Ritmo y Aroma y muchas cosas",
 	},
 	{
 		content: [
@@ -415,6 +523,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2Fbbcd0c37-8071-4009-964c-aa2b075bee8b.JPEG?alt=media&token=23275469-0ab2-4f5f-9295-6d21ab787d4d",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Te veo en Guayaquil",
@@ -426,6 +535,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_1466.MP4?alt=media&token=753e0767-2123-4cb3-80fc-ee1d6785b970",
 				type: "video",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.41.56%20PM.jpeg?alt=media&token=b5cdb194-b746-4f4f-adec-d0dc909d5fee",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "Te vi en Guayaquil",
@@ -440,10 +555,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_1846.MP4?alt=media&token=e1818811-737a-45b4-b928-c3a3186e21ab",
 				type: "video",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_1521.JPEG?alt=media&token=eb7f630d-3860-40a8-a7fb-5e8cf9da2024",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Buenos Aires - Día I",
@@ -459,10 +576,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2142.JPEG?alt=media&token=f647e9bc-9dd8-4f8b-b9f5-d02ac0759f19",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_1978.JPEG?alt=media&token=f68f7cac-14cc-4084-b1d4-3aaa5f8ff65c",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "11/11",
@@ -477,10 +596,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2170.JPEG?alt=media&token=6a218dc4-0f53-411b-884f-8ae59847c4a1",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2540.MOV?alt=media&token=a514a04e-6a88-4248-a1dc-8ffce68bdf64",
 				type: "video",
+				owner: "Nicolas",
 			},
 		],
 		title: "Hola, novia: Buenos Aires - Día III",
@@ -496,20 +617,38 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2635.JPEG?alt=media&token=5ebe7664-58a6-4f55-95cc-967f01bbc9fe",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2540.MOV?alt=media&token=a514a04e-6a88-4248-a1dc-8ffce68bdf64",
 				type: "video",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.47.19%20PM.jpeg?alt=media&token=9996799d-adf7-484e-a899-0c72a504f954",
+				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Avenida Melián.",
 	},
 	{
 		content: [
-			"Te recojo en el trabajo y estamos muy cansados ambos, nomás nos dormimos hasta el sábado bien tarde.",
+			"Llegamos en la mañana a Bogotá de nuestro vuelo y nos hiciste desayuno en tu casita. Ya en la noche, te recojo en el trabajo y estamos muy cansados ambos, nomás nos dormimos hasta el sábado bien tarde.",
 		],
 		date: "2024-11-15T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.47.20%20PM.mp4?alt=media&token=085bb1b3-a8f1-4ce2-a7b7-f46e2dab0298",
+				type: "video",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.47.19%20PM%20(1).jpeg?alt=media&token=4872cd27-ef30-45bf-9ebb-3ccfc48752ce",
+				type: "image",
+				owner: "Nicolas",
+			},
+		],
 		title: "Dormir mucho después de Buenos Aires.",
 	},
 	{
@@ -518,11 +657,17 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 Cuando leas esto dime, que yo quiero que volvamos a hacer lo de las tres cosas que nos gustaron, lo extraño mucho 🦔.",
 			"💬 Cómo nos hemos divertido en el topo, ¿no?",
 		],
-		date: "2024-11-20T10:01:42.834Z",
+		date: "2024-11-19T10:01:42.834Z",
 		media: [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2725.JPEG?alt=media&token=01c513b7-b5a9-4e35-bf26-c75569665149",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.51.35%20PM.jpeg?alt=media&token=e666999d-2083-4cda-bfb9-743caa6108bf",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "Tengamos una cita para pasarnos fotos de Buenos Aires.",
@@ -537,6 +682,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2752.JPEG?alt=media&token=46fdf1aa-ae41-4bc9-b3ea-16440ec9d851",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Excusas para salir en El Topo",
@@ -550,6 +696,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2F17d625ac-ede7-4a94-9416-3765e47d37f4.jpg?alt=media&token=08911db7-2855-45ac-854d-4532437e8a81",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Tu mamita",
@@ -573,6 +720,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2793.JPEG?alt=media&token=39b23752-37d6-4bcf-8ac8-7ceb96656ecd",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Tu pumpe ❤️",
@@ -587,6 +735,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2F78c36201-1ce2-4fbe-b490-7373c9ddb7f6.JPEG?alt=media&token=4a04d796-1f6a-45d0-9a5e-0ea96fc5aaaa",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.55.52%20PM.mp4?alt=media&token=3653308f-20d7-4b14-9b7f-9a3766efb8f4",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Tu pumpe pero en casa de Palita",
@@ -601,6 +755,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2Faa97d42a-afac-4619-b064-c1edeb5b2e75.jpg?alt=media&token=0a2c3418-72ce-420c-9760-489804b3e60f",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Durmamos hasta tarde",
@@ -622,6 +777,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2874.MP4?alt=media&token=73087226-8f03-47f3-88f0-8bb916025d49",
 				type: "video",
+				owner: "Nicolas",
 			},
 		],
 		title: "El primer día de Navidad",
@@ -645,6 +801,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2902.JPEG?alt=media&token=4d8bf193-aebf-43d9-94a0-5aca0656b27a",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.57.49%20PM.mp4?alt=media&token=3e9403fc-0a70-4751-9470-c378a748ed0d",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Mi mamita",
@@ -657,7 +819,13 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 ¿Que si me arrepiento de no haber ido a Puerto Vallarta? Obvio, siempre, pero no si pienso en que no fui por quedarme contigo. Vamos un día de estos a Puerto Vallarta.",
 		],
 		date: "2024-12-04T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%202.49.03%20PM.mp4?alt=media&token=d8a8fed4-dff2-4fc4-93b6-1a1fd9c35744",
+				type: "video",
+				owner: "Lau",
+			},
+		],
 		title: "La casa de tus tías",
 	},
 	{
@@ -670,6 +838,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-10%20at%203.44.16%20PM.jpeg?alt=media&token=cd864a6b-590c-4475-933a-6b80a764d656",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Las botitas de Navidad",
@@ -691,10 +860,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2947.JPEG?alt=media&token=6a877315-fe13-4af3-977b-b3b084974154",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2948.JPEG?alt=media&token=a7fd2e73-e477-420f-a939-9f24e9c642f5",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Velitas",
@@ -717,14 +888,32 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2966.JPEG?alt=media&token=7437d3ca-2618-49dd-a812-24625ff329e2",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2964.JPEG?alt=media&token=bcbfdc9b-fda2-4a0f-8975-a024b4a123c1",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_2986.JPEG?alt=media&token=44a4fa02-593a-479f-9398-0c098449237e",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.03.44%20PM.jpeg?alt=media&token=228fbcb0-ca98-4b12-b094-e66354e09a46",
+				type: "image",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%203.05.59%20PM.mp4?alt=media&token=40cf812e-7ad8-48dc-af7d-e47047ab63f0",
+				type: "video",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%203.06.01%20PM.mp4?alt=media&token=bd850230-8385-4eef-93ed-1432888cc9c0",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Girardó",
@@ -741,6 +930,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_3004.JPEG?alt=media&token=ec7f1ddc-b716-4a91-a161-936a02041fb5",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Después de Girardot",
@@ -750,11 +940,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			"Me invitaste a almorzar en tu casa; fue pechuga con arroz, puré de papa y ensalada de zanahoria rayada con arándanos; estoy viviendo el sueño ❤️. Te recogí en la noche y hablamos un ratito antes de que te fueras a casa.",
 			"💬 Soy tan fan de cuando me invitas a almorzar a tu casita...",
 		],
-		date: "2024-12-11T10:01:42.834Z",
+		date: "2024-12-12T10:01:42.834Z",
 		media: [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_3013.JPEG?alt=media&token=2a2d889e-5183-4965-a009-f9cb5ac32db2",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Puré de papa con pechuga",
@@ -768,6 +959,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_3026.PNG?alt=media&token=ceb85ab3-fd01-4de7-9a97-93972b6265f8",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Viernes 13",
@@ -782,6 +974,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_3040.JPEG?alt=media&token=4257f1c1-9480-4b1e-8f97-5f47068f15d7",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%203.08.40%20PM.mp4?alt=media&token=9f464db1-f7d2-46dc-beb8-24a9013ea8d5",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "Murillo para la cena",
@@ -795,6 +993,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_3051.JPEG?alt=media&token=8f45e636-fa57-459c-9687-39bf87f7d8b4",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Nota sobre que dormimos mucho",
@@ -805,7 +1004,13 @@ const RAW_ENTRIES: RawEntry[] = [
 			"💬 El Inky bebecitooooooo 🐱.",
 		],
 		date: "2024-12-17T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%203.10.32%20PM.mp4?alt=media&token=019cddf2-f482-4f10-ad51-cc8e2dba5dfb",
+				type: "video",
+				owner: "Lau",
+			},
+		],
 		title: "Inky 🐱",
 	},
 	{
@@ -822,7 +1027,13 @@ const RAW_ENTRIES: RawEntry[] = [
 			"Te recogí en la noche saliendo del trabajo para quedarnos juntos e irnos al evento de los abuelitos en el pueblo de Lili. Dormimos como dos horas.",
 		],
 		date: "2024-12-23T10:01:42.834Z",
-		media: [],
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0061.JPEG?alt=media&token=c1a45cbd-c5b9-44f5-9292-f337467662e0",
+				type: "image",
+				owner: "Nicolas",
+			},
+		],
 		title: "Dos horas de sueño para llevar cobijas",
 	},
 	{
@@ -836,22 +1047,22 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0156.JPEG?alt=media&token=651fbcd8-1d26-49d1-9866-dfc26181418d",
 				type: "image",
-			},
-			{
-				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0061.JPEG?alt=media&token=c1a45cbd-c5b9-44f5-9292-f337467662e0",
-				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0063.JPEG?alt=media&token=a70a9ad5-3db3-430f-93bb-ba479410570c",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0141.JPEG?alt=media&token=ea39e242-864f-44ac-aeb7-4479f5e808e9",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0249.JPEG?alt=media&token=1782d4ad-a2dc-40a3-93f9-3cff322b3e8f",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Navidad navidad ❤️🎄",
@@ -866,6 +1077,12 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0207.JPEG?alt=media&token=f94cf9da-a6af-45e6-9df9-92c84eb0ba13",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.16.18%20PM.jpeg?alt=media&token=ea290e9f-1f7f-4380-88ff-29f2af6154b9",
+				type: "image",
+				owner: "Lau",
 			},
 		],
 		title: "Asadito de navidá",
@@ -880,6 +1097,7 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0225.JPEG?alt=media&token=b1e89927-d271-472b-8283-76a5a4aeab81",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Gastroentiris por el asao",
@@ -893,9 +1111,29 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0231.JPEG?alt=media&token=db34ff2b-41b4-46ef-accc-baa38736b728",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "De visita de médico en la tarde a visita de ninja en la noche.",
+	},
+	{
+		content: [
+			"Fuimos temprano al agua patos a desayunar y luego tuve que ir a trabajar :(, horrible trabajar, pero era divertido si antes te veía a ti.",
+		],
+		date: "2024-12-29T10:01:42.834Z",
+		media: [
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.22.24%20PM.jpeg?alt=media&token=ac2d2505-d008-48b8-80dc-210c9b7e154e",
+				type: "image",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.22.57%20PM.jpeg?alt=media&token=ab087639-051e-4697-b040-ca2e3ddd7833",
+				type: "image",
+				owner: "Nicolas",
+			},
+		],
+		title: "Al agua patos 🦆",
 	},
 	{
 		content: [
@@ -907,6 +1145,27 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0275.JPEG?alt=media&token=d007c1c2-055a-4e07-a603-614fb87d91c2",
 				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.24.30%20PM%20(1).jpeg?alt=media&token=7664c941-9fc7-4e23-ad8f-3ddadd33c4ff",
+				type: "image",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.24.29%20PM.jpeg?alt=media&token=310093c0-ef05-4855-861d-7f692fff2fe4",
+				type: "image",
+				owner: "Nicolas",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%203.24.30%20PM.jpeg?alt=media&token=bff0504f-a275-46cf-b80d-28dc1217ed97",
+				type: "image",
+				owner: "Lau",
+			},
+			{
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Video%202025-11-29%20at%203.24.32%20PM.mp4?alt=media&token=17074168-ba0b-4876-a4ca-4091231e0849",
+				type: "video",
+				owner: "Lau",
 			},
 		],
 		title: "San Francisco con Angie",
@@ -922,22 +1181,27 @@ const RAW_ENTRIES: RawEntry[] = [
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0301.MP4?alt=media&token=7ddfe2bd-02c2-4934-ba7f-2eceef0f0092",
 				type: "video",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0299.JPEG?alt=media&token=2859019c-e724-433c-bf50-a5227fe58105",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0298.JPEG?alt=media&token=99f0eb47-51ba-4e10-a9d0-08f73443be04",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0289.JPEG?alt=media&token=4a7f7d30-adf6-464a-a435-a2f4d5a5b98b",
 				type: "image",
+				owner: "Nicolas",
 			},
 			{
 				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_0302.JPEG?alt=media&token=7bf957f7-c27e-454e-a120-e693cfd7759a",
 				type: "image",
+				owner: "Nicolas",
 			},
 		],
 		title: "Año nuevo en San Gil",
