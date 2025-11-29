@@ -155,13 +155,13 @@ const Header = ({
 	nextEntry: Entry | null;
 }) => (
 	<div className="flex items-center justify-between rounded-t-xl border-b bg-card px-4 py-2">
-		<div className="flex items-center gap-3">
-			<div className="flex gap-2">
+		<Button className="flex items-center gap-3 px-0" size="sm" variant="ghost">
+			<Link className="flex gap-2" to="entry/home">
 				<div className="size-3 rounded-full bg-red-500"></div>
 				<div className="size-3 rounded-full bg-yellow-500"></div>
 				<div className="size-3 rounded-full bg-green-500"></div>
-			</div>
-		</div>
+			</Link>
+		</Button>
 
 		<div className="flex items-center gap-2">
 			{previousEntry && (
