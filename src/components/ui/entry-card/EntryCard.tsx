@@ -19,8 +19,6 @@ export const EntryCard = ({
 	nextEntry: Entry | null;
 }) => {
 	const { content, date, media, n, title } = entry;
-	const images = media.filter((item) => item.type === "image");
-	const videos = media.filter((item) => item.type === "video");
 
 	const [typewriterDone, setTypewriterDone] = useState(false);
 
