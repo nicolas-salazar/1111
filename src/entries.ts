@@ -281,7 +281,7 @@ const RAW_ENTRIES: RawEntry[] = [
 				owner: "Nicolas",
 			},
 			{
-				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FIMG_8726.JPEG?alt=media&token=4bfd1db3-3f39-4243-a318-c68f7e2bab7d",
+				src: "https://firebasestorage.googleapis.com/v0/b/onceonce-11413.firebasestorage.app/o/entries-media%2FWhatsApp%20Image%202025-11-29%20at%202.11.25%20PM.jpeg?alt=media&token=5ef9da26-d792-4a9a-9c4e-99cdecaece96",
 				type: "image",
 				owner: "Lau",
 			},
