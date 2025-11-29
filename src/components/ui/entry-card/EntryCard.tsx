@@ -58,50 +58,57 @@ export const EntryCard = ({
 						"transition-height duration-500",
 					)}
 				>
-					{images.length > 0 &&
-						images.map((image) => (
-							<ImageZoom
-								backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'
-								key={`entry-card.image-${image.src}`}
-							>
-								<LoadableImage
-									className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
-									src={image.src}
-								/>
-							</ImageZoom>
-						))}
+					{media.length > 0 &&
+						media.map((media) => {
+							if (media.type === "image") {
+								return (
+									<ImageZoom
+										backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'
+										key={`entry-card.image-${media.src}`}
+									>
+										<LoadableImage
+											className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
+											src={media.src}
+										/>
+									</ImageZoom>
+								);
+							}
 
-					{videos.length > 0 &&
-						videos.map((video) => (
-							<div
-								className="relative"
-								key={`entry-card.video-container-${video.src}`}
-							>
-								<video
-									autoPlay
-									className="w-full rounded-2xl"
-									controls
-									src={video.src}
-									muted
-								>
-									<track
-										kind="captions"
-										srcLang="es"
-										label="Español"
-										src=""
-										default
-									/>
-								</video>
+							if (media.type === "video") {
+								return (
+									<div
+										className="relative"
+										key={`entry-card.video-container-${media.src}`}
+									>
+										<video
+											autoPlay
+											className="w-full rounded-2xl"
+											controls
+											src={media.src}
+											muted
+										>
+											<track
+												kind="captions"
+												srcLang="es"
+												label="Español"
+												src=""
+												default
+											/>
+										</video>
 
-								{/* biome-ignore lint/a11y/useAnchorContent: Will skip it for now */}
-								<a
-									className="video-anchor absolute top-0 left-0 h-full w-full"
-									href={video.src}
-									rel="noreferrer"
-									target="_blank"
-								/>
-							</div>
-						))}
+										{/* biome-ignore lint/a11y/useAnchorContent: Will skip it for now */}
+										<a
+											className="video-anchor absolute top-0 left-0 h-full w-full"
+											href={media.src}
+											rel="noreferrer"
+											target="_blank"
+										/>
+									</div>
+								);
+							}
+
+							return null;
+						})}
 
 					<div className="h-[1px] w-full shrink-0 bg-border" />
 
