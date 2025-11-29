@@ -37,13 +37,14 @@ export const EntryCard = ({
 					<TypingText
 						as="p"
 						className="hyphens-auto text-left text-l text-muted-foreground leading-relaxed"
+						completeOnClick={true}
 						cursorCharacter="|"
 						initialDelay={1000}
 						key={`entry-card.typewriter.${entry.n}`}
 						loop={false}
-						onSentenceComplete={() => {
-							setTimeout(() => setTypewriterDone(true), 250);
-						}}
+						onSentenceComplete={() =>
+							setTimeout(() => setTypewriterDone(true), 250)
+						}
 						showCursor={true}
 						text={content.join("\n\n")}
 						typingSpeed={45}

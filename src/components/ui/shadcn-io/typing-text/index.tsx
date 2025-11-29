@@ -27,9 +27,10 @@ interface TypingTextProps {
 	loop?: boolean;
 	textColors?: string[];
 	variableSpeed?: { min: number; max: number };
-	onSentenceComplete?: (sentence: string, index: number) => void;
+	onSentenceComplete?: () => void;
 	startOnVisible?: boolean;
 	reverseMode?: boolean;
+	completeOnClick?: boolean;
 }
 
 const TypingText = ({
@@ -51,6 +52,7 @@ const TypingText = ({
 	onSentenceComplete,
 	startOnVisible = false,
 	reverseMode = false,
+	completeOnClick = false,
 	...props
 }: TypingTextProps & React.HTMLAttributes<HTMLElement>) => {
 	const [displayedText, setDisplayedText] = useState("");
@@ -58,6 +60,7 @@ const TypingText = ({
 	const [isDeleting, setIsDeleting] = useState(false);
 	const [currentTextIndex, setCurrentTextIndex] = useState(0);
 	const [isVisible, setIsVisible] = useState(!startOnVisible);
+	const [isCompleted, setIsCompleted] = useState(false);
 	const cursorRef = useRef<HTMLSpanElement>(null);
 	const containerRef = useRef<HTMLElement>(null);
 
@@ -76,6 +79,11 @@ const TypingText = ({
 		if (textColors.length === 0) return "currentColor";
 		return textColors[currentTextIndex % textColors.length];
 	};
+
+	const markAsCompleted = useCallback(() => {
+		setIsCompleted(true);
+		onSentenceComplete?.();
+	}, [onSentenceComplete]);
 
 	useEffect(() => {
 		if (!startOnVisible || !containerRef.current) return;
@@ -126,9 +134,7 @@ const TypingText = ({
 						return;
 					}
 
-					if (onSentenceComplete) {
-						onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
-					}
+					markAsCompleted();
 
 					setCurrentTextIndex((prev) => (prev + 1) % textArray.length);
 					setCurrentCharIndex(0);
@@ -156,9 +162,7 @@ const TypingText = ({
 						}, pauseDuration);
 					}
 
-					if (onSentenceComplete) {
-						onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
-					}
+					markAsCompleted();
 				}
 			}
 		};
@@ -184,8 +188,8 @@ const TypingText = ({
 		isVisible,
 		reverseMode,
 		variableSpeed,
-		onSentenceComplete,
 		getRandomSpeed,
+		markAsCompleted,
 	]);
 
 	const shouldHideCursor =
@@ -199,9 +203,16 @@ const TypingText = ({
 			className: `inline-block whitespace-pre-wrap tracking-tight ${className}`,
 			...props,
 		},
-		<span className="inline" style={{ color: getCurrentTextColor() }}>
-			{displayedText}
-		</span>,
+		<button
+			className="inline text-left"
+			onClick={() => {
+				completeOnClick && markAsCompleted();
+			}}
+			style={{ color: getCurrentTextColor() }}
+			type="button"
+		>
+			{isCompleted ? text : displayedText}
+		</button>,
 		showCursor && (
 			<span
 				ref={cursorRef}
