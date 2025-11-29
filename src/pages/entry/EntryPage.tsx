@@ -9,6 +9,7 @@ export const EntryPage = () => {
 	return (
 		<EntryCard
 			entry={ENTRIES[index - 1]}
+			key={`entry-card.${ENTRIES[index - 1].n}`}
 			nextEntry={ENTRIES[index] || null}
 			previousEntry={ENTRIES[index - 2] || null}
 		/>

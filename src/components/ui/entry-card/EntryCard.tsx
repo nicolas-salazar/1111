@@ -40,7 +40,6 @@ export const EntryCard = ({
 						completeOnClick={true}
 						cursorCharacter="|"
 						initialDelay={1000}
-						key={`entry-card.typewriter.${entry.n}`}
 						loop={false}
 						onSentenceComplete={() =>
 							setTimeout(() => setTypewriterDone(true), 250)
