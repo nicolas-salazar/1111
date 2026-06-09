@@ -1,4 +1,5 @@
-import { addDays } from "date-fns";
+import { addDays, format } from "date-fns";
+import { es } from "date-fns/locale/es";
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { EntryTile } from "@/components/ui/entry-tile";
@@ -81,8 +82,8 @@ export const HomePage = () => {
 					</>
 				) : (
 					<p className="text-muted-foreground text-sm">
-						Parece que hemos tenido ninguna cita un 11 de noviembre... Tengamos
-						una.
+						Parece que no hemos tenido ninguna cita un{" "}
+						{format(new Date(), "d 'de' MMMM", { locale: es })}... Tengamos una.
 					</p>
 				)}
 			</div>
