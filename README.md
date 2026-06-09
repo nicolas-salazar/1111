@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# 11:11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to keep track of the dates Nicolas and Lau have had together. Each entry has a title, a date, a written account, and optionally photos or videos stored in Firebase Storage.
 
-Currently, two official plugins are available:
+Built with React 19, TypeScript, Vite, TailwindCSS 4, and Radix UI. Deployed on Firebase Hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running locally
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+nvm use
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Deploying
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm run build
+firebase deploy
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+> Requires the Firebase CLI (`npm install -g firebase-tools`) and being logged in (`firebase login`).
+
+## Tech stack
+
+- **React 19** + **TypeScript**
+- **Vite** (rolldown-vite)
+- **TailwindCSS 4** — theme configured in `src/index.css`
+- **Radix UI** — base for all UI components
+- **React Router v6** — client-side routing
+- **date-fns** — date formatting and distance calculations (Spanish locale)
+- **Biome** — linter and formatter (see `biome.json`)
+- **Firebase Hosting** — deployment target
+- **Firebase Storage** — stores entry media (photos and videos)
+
+## Project structure
+
+```
+src/
+  entries.ts          # all date entries data
+  App.tsx             # route definitions
+  pages/
+    welcome/          # animated intro screen
+    home/             # full list + "on this day" highlights
+    entry/            # single entry view
+  components/ui/      # reusable UI components
+  lib/                # utility functions
 ```
