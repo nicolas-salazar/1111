@@ -1928,7 +1928,10 @@ const RAW_ENTRIES: RawEntry[] = [
 		title: "Boticas para Buenos Aires",
 	},
 	{
-		content: ["Guayaquil.", "💬 Perdóneme, se la debo :("],
+		content: [
+			"Mireeeee cómo estuvimos de debuenas hoy aquí de camino a Buenos Aires por segunda vez, que nos dejaron entrar gratis a la VIP y comimos mucho y muy bueno, y descansamos, y comimos otra vez y te tomaste tú como mil chocolates y ya se hizo hora de ir a esa ciudad bella que nos vio hacernos novios ❤️.",
+			"💬 ¿Te acuerdas de todo el pelotero con mi maletita? Jajaja. Muy buen servicio el de Avianca, para qué; la maleta como que medio se perdió en Guayaquil por todo lo que pasó en el Aeropuerto en Bogotá y mucho caos y mucho desorden y al final nos estaban esperando con la maleta en Buenos Aires nomás saliendo del avión. Excelente servicio ⭐️⭐️⭐️⭐️⭐️.",
+		],
 		date: "2025-06-09T10:01:42.834Z",
 		media: [],
 		title: "Escala en Guayaquil",
