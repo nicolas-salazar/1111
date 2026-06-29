@@ -1,41 +1,16 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import { Button } from "@/components/ui/button";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
-import { WELCOME_SENTENCES } from "@/pages/welcome/welcome-sentences";
+import { WELCOME_SENTENCES } from "@/pages/onboarding/welcome-sentences";
 
-export const HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY =
-	"has-visited-the-welcome-page";
-
-export const WelcomePage = () => {
+export const OnboardingPage = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const scrollInterval = useRef<ReturnType<typeof setInterval> | null>(null);
 
 	const [lastItemToBeShownIndex, setLastItemToBeShownIndex] = useState(0);
 	const [showContinueButton, setShowContinueButton] = useState(false);
-
-	useEffect(() => {
-		scrollInterval.current = setInterval(() => {
-			containerRef.current?.scrollTo({
-				behavior: "smooth",
-				top: containerRef.current.scrollHeight,
-			});
-		}, 100);
-
-		return () => {
-			if (scrollInterval.current) {
-				clearInterval(scrollInterval.current);
-			}
-		};
-	}, []);
-
-	useEffect(() => {
-		localStorage.setItem(
-			HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY,
-			JSON.stringify(true),
-		);
-	}, []);
 
 	return (
 		<div
@@ -53,7 +28,7 @@ export const WelcomePage = () => {
 						)}
 						cursorCharacter="|"
 						initialDelay={1500}
-						key={`welcome.text.${text}`}
+						key={`onboarding.text.${text}`}
 						loop={false}
 						showCursor={index === lastItemToBeShownIndex}
 						text={text}
@@ -67,7 +42,6 @@ export const WelcomePage = () => {
 										clearInterval(scrollInterval.current);
 									}
 								}, 500);
-
 								setShowContinueButton(true);
 							}
 						}}
