@@ -6,8 +6,7 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": false,
-		"ignore": ["**/dist/**", "**/node_modules/**"]
+		"ignoreUnknown": false
 	},
 	"formatter": {
 		"enabled": true,
@@ -34,17 +33,5 @@
 				"organizeImports": "on"
 			}
 		}
-	},
-	"overrides": [
-		{
-			"includes": ["packages/1111-server/**", "packages/shared/**"],
-			"linter": {
-				"rules": {
-					"nursery": {
-						"useSortedClasses": "off"
-					}
-				}
-			}
-		}
-	]
+	}
 }

@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Secrets — server env files contain credentials and must never be committed
+packages/1111-server/serviceAccountKey*.json
+packages/1111-server/.env.*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
