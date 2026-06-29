@@ -14,8 +14,8 @@ export type AppUser = {
 // Firestore: couples/{coupleId}
 export type Couple = {
 	id: string;
-	user1Id: string;
-	user2Id: string;
+	name: string;
+	memberIds: string[];
 	createdAt: string;
 };
 
@@ -37,8 +37,6 @@ export type MediaItem = {
 export type Comment = {
 	id: string; // client-generated UUID
 	userId: string;
-	authorName: string;
-	authorPhoto?: string;
 	text: string;
 	createdAt: string; // ISO string
 };
@@ -76,9 +74,3 @@ export type EntryDetail = Entry & {
 // The client uses date-fns to compute the display label.
 export type MilestonesResponse = Entry[];
 
-// ─── Metadata ────────────────────────────────────────────────────────────────
-
-// Firestore: couples/{coupleId}/metadata/stats
-export type CoupleStats = {
-	totalEntries: number;
-};

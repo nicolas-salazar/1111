@@ -1,4 +1,4 @@
-type RawEntry = {
+export type RawEntry = {
 	content: string[];
 	date: string;
 	media: Array<{ owner: "Nicolas" | "Lau"; src: string; type: string }>;
@@ -7,7 +7,7 @@ type RawEntry = {
 
 export type Entry = RawEntry & { n: number };
 
-const RAW_ENTRIES: RawEntry[] = [
+export const RAW_ENTRIES: RawEntry[] = [
 	{
 		content: [
 			"McDonalds chía y adivina quién.",

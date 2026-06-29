@@ -52,10 +52,10 @@ export const api = {
 			}),
 
 		/** Add a comment to an entry on behalf of the current user. */
-		addComment: (coupleId: string, entryId: string, text: string) =>
+		addComment: (coupleId: string, entryId: string, text: string, createdAt?: string) =>
 			request<Comment>(`/couples/${coupleId}/entries/${entryId}/comments`, {
 				method: "POST",
-				body: JSON.stringify({ text }),
+				body: JSON.stringify({ text, ...(createdAt ? { createdAt } : {}) }),
 			}),
 
 		/** Entries that hit a 3/6/9-month or year anniversary today or tomorrow. */

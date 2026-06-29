@@ -10,4 +10,10 @@ export default defineConfig({
 			"@": path.resolve(__dirname, "./src"),
 		},
 	},
+	server: {
+		proxy: {
+			"/couples": "http://localhost:3001",
+			"/health": "http://localhost:3001",
+		},
+	},
 });

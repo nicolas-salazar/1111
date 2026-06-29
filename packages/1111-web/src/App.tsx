@@ -2,10 +2,12 @@ import type { ReactNode } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import {
+	CreateEntryPage,
 	DevToolsPage,
 	EntryPage,
 	HomePage,
 	LoginPage,
+	MigratePage,
 	OnboardingPage,
 } from "@/pages";
 
@@ -43,6 +45,14 @@ const App = () => (
 			<Route
 				path="/entry/:id"
 				element={<ProtectedRoute><EntryPage /></ProtectedRoute>}
+			/>
+			<Route
+				path="/entry/new"
+				element={<ProtectedRoute><CreateEntryPage /></ProtectedRoute>}
+			/>
+			<Route
+				path="/migrate"
+				element={<ProtectedRoute><MigratePage /></ProtectedRoute>}
 			/>
 			<Route path="/dev-tools" element={<DevToolsPage />} />
 

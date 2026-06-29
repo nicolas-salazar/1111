@@ -1,5 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config({ path: `.env.${process.env.NODE_ENV ?? "development"}` });
 import "./lib/firebase.js"; // initialize Firebase Admin before anything else
 import { serve } from "@hono/node-server";
 import { app } from "./app.js";

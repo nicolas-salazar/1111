@@ -1,4 +1,4 @@
-import { getApps, initializeApp } from "firebase-admin/app";
+import { getApp, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
 import { getStorage } from "firebase-admin/storage";
 
@@ -10,5 +10,7 @@ if (getApps().length === 0) {
 	});
 }
 
-export const db = getFirestore();
+const databaseId = process.env.FIREBASE_DATABASE_ID;
+export const db = databaseId ? getFirestore(getApp(), databaseId) : getFirestore();
 export const storageBucket = getStorage().bucket();
+

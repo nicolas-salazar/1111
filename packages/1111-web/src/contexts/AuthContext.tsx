@@ -56,8 +56,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	useEffect(() => {
 		const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
 			if (firebaseUser) {
-				const user = await syncUserProfile(firebaseUser);
-				setCurrentUser(user);
+				try {
+					const user = await syncUserProfile(firebaseUser);
+					setCurrentUser(user);
+				} catch (err) {
+					console.error("[AuthContext] syncUserProfile failed:", err);
+				}
 			} else {
 				setCurrentUser(null);
 			}

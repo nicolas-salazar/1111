@@ -164,9 +164,7 @@ entriesRouter.put("/:entryId", requireAuth, async (c) => {
 entriesRouter.post("/:entryId/comments", requireAuth, async (c) => {
 	const { coupleId, entryId } = c.req.param();
 	const userId = c.get("userId") as string;
-	const authorName = c.get("userDisplayName") as string;
-	const authorPhoto = c.get("userPhotoURL") as string | null;
-	const { text } = await c.req.json<{ text: string }>();
+	const { text, createdAt } = await c.req.json<{ text: string; createdAt?: string }>();
 
 	if (!text?.trim()) return c.json({ error: "Comment text is required" }, 400);
 
@@ -177,10 +175,8 @@ entriesRouter.post("/:entryId/comments", requireAuth, async (c) => {
 	const comment: Comment = {
 		id: crypto.randomUUID(),
 		userId,
-		authorName,
-		...(authorPhoto ? { authorPhoto } : {}),
 		text: text.trim(),
-		createdAt: new Date().toISOString(),
+		createdAt: createdAt ?? new Date().toISOString(),
 	};
 
 	await ref.update({
