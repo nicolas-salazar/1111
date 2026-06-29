@@ -1,3 +1,4 @@
+import { addDays, differenceInMonths, differenceInYears, getDate, getMonth } from "date-fns";
 import { FieldValue } from "firebase-admin/firestore";
 import { Hono } from "hono";
 import type { Comment, CreateEntryInput, Entry, EntryDetail, MediaItem } from "@1111/shared";
@@ -9,19 +10,33 @@ export const entriesRouter = new Hono();
 
 const cache = new TtlCache<Entry[]>(24 * 60 * 60 * 1000);
 
+// ─── Milestone helpers ────────────────────────────────────────────────────────
+
+const MONTH_MILESTONES = [3, 6, 9];
+
+function isMilestoneOnDate(entry: Entry, ref: Date): boolean {
+	const d = new Date(entry.date);
+	const months = differenceInMonths(ref, d);
+	const years = differenceInYears(ref, d);
+	const sameDayOfMonth = getDate(ref) === getDate(d);
+	const sameDayAndMonth = sameDayOfMonth && getMonth(ref) === getMonth(d);
+
+	if (sameDayAndMonth && years >= 1) return true; // year anniversary
+	if (sameDayOfMonth && MONTH_MILESTONES.includes(months) && !sameDayAndMonth) return true; // 3/6/9 months
+
+	return false;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 function entriesCol(coupleId: string) {
 	return db.collection("couples").doc(coupleId).collection("entries");
 }
 
-/**
- * Returns all entries for a couple, ordered by date ascending.
- * Results are cached for 5 minutes.
- */
-entriesRouter.get("/", async (c) => {
-	const coupleId = c.req.param("coupleId");
+async function getAllEntries(coupleId: string): Promise<Entry[]> {
 	const cacheKey = `entries:${coupleId}`;
 	const cached = cache.get(cacheKey);
-	if (cached) return c.json(cached);
+	if (cached) return cached;
 
 	const snapshot = await entriesCol(coupleId).orderBy("date", "asc").get();
 	const entries: Entry[] = snapshot.docs.map((doc) => ({
@@ -30,7 +45,37 @@ entriesRouter.get("/", async (c) => {
 	}));
 
 	cache.set(cacheKey, entries);
+	return entries;
+}
+
+/**
+ * Returns all entries for a couple, ordered by date ascending.
+ * Results are cached for 24 hours.
+ */
+entriesRouter.get("/", async (c) => {
+	const coupleId = c.req.param("coupleId");
+	const entries = await getAllEntries(coupleId);
 	return c.json(entries);
+});
+
+/**
+ * Returns entries that hit a milestone today or tomorrow:
+ * - Year anniversaries (same day + month, ≥1 year ago)
+ * - 3, 6, or 9 month anniversaries (same day of month)
+ * Computed in-memory from the already-cached entry list — no extra Firestore reads.
+ */
+entriesRouter.get("/milestones", async (c) => {
+	const coupleId = c.req.param("coupleId");
+	const allEntries = await getAllEntries(coupleId);
+
+	const today = new Date();
+	const tomorrow = addDays(today, 1);
+
+	const milestones = allEntries.filter(
+		(e) => isMilestoneOnDate(e, today) || isMilestoneOnDate(e, tomorrow),
+	);
+
+	return c.json(milestones);
 });
 
 /**
@@ -40,26 +85,16 @@ entriesRouter.get("/", async (c) => {
  */
 entriesRouter.get("/:entryId", async (c) => {
 	const { coupleId, entryId } = c.req.param();
-
-	const cacheKey = `entries:${coupleId}`;
-	let allEntries = cache.get(cacheKey);
-
-	if (!allEntries) {
-		const snapshot = await entriesCol(coupleId).orderBy("date", "asc").get();
-		allEntries = snapshot.docs.map((doc) => ({
-			...(doc.data() as Omit<Entry, "id">),
-			id: doc.id,
-		}));
-		cache.set(cacheKey, allEntries);
-	}
+	const allEntries = await getAllEntries(coupleId);
 
 	const index = allEntries.findIndex((e) => e.id === entryId);
 	if (index === -1) return c.json({ error: "Not found" }, 404);
 
 	const detail: EntryDetail = {
 		...allEntries[index],
-		previousEntryId: allEntries[index - 1]?.id ?? null,
-		nextEntryId: allEntries[index + 1]?.id ?? null,
+		n: index + 1,
+		previousEntry: allEntries[index - 1] ?? null,
+		nextEntry: allEntries[index + 1] ?? null,
 	};
 
 	return c.json(detail);
@@ -141,7 +176,6 @@ entriesRouter.post("/:entryId/comments", requireAuth, async (c) => {
 
 	const comment: Comment = {
 		id: crypto.randomUUID(),
-		entryId,
 		userId,
 		authorName,
 		...(authorPhoto ? { authorPhoto } : {}),

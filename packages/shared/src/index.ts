@@ -62,11 +62,19 @@ export type CreateEntryInput = Pick<Entry, "title" | "date" | "content"> & {
 	media?: MediaItem[];
 };
 
-// Returned by GET /entries/:id — includes adjacent entry IDs for prev/next navigation
+// Returned by GET /entries/:id — includes position and adjacent full entries for prev/next navigation
 export type EntryDetail = Entry & {
-	previousEntryId: string | null;
-	nextEntryId: string | null;
+	n: number; // 1-based position in date-sorted list
+	previousEntry: Entry | null;
+	nextEntry: Entry | null;
 };
+
+// ─── Milestones ──────────────────────────────────────────────────────────────
+
+// Returned by GET /entries/milestones — entries that hit a milestone on today
+// or tomorrow (3/6/9 month anniversaries or year anniversaries).
+// The client uses date-fns to compute the display label.
+export type MilestonesResponse = Entry[];
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
 

@@ -16,6 +16,7 @@
 	"dependencies": {
 		"@1111/shared": "*",
 		"@hono/node-server": "^1.13.0",
+		"date-fns": "^4.4.0",
 		"dotenv": "^16.4.5",
 		"firebase-admin": "^13.4.0",
 		"hono": "^4.8.3"

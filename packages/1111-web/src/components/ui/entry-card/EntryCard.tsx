@@ -3,24 +3,21 @@ import { es } from "date-fns/locale/es";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
+import type { Entry, EntryDetail } from "@1111/shared";
 import { Button } from "@/components/ui/button";
 import { LoadableImage } from "@/components/ui/loadable-image";
 import { ImageZoom } from "@/components/ui/shadcn-io/image-zoom";
 import TypingText from "@/components/ui/shadcn-io/typing-text";
-import type { Entry } from "@/entries";
+import { useUser } from "@/hooks/useUser";
 
-export const EntryCard = ({
-	entry,
-	previousEntry,
-	nextEntry,
-}: {
-	entry: Entry;
-	previousEntry: Entry | null;
-	nextEntry: Entry | null;
-}) => {
-	const { content, date, media, n, title } = entry;
+export const EntryCard = ({ entry }: { entry: EntryDetail }) => {
+	const { content, date, media, n, title, previousEntry, nextEntry, createdBy } = entry;
+	const { data: author } = useUser(createdBy);
 
 	const [typewriterDone, setTypewriterDone] = useState(false);
+
+	const authorName = author?.displayName ?? "…";
+	const authorInitial = authorName.charAt(0).toUpperCase();
 
 	return (
 		<div className="flex min-h-fit w-full flex-col rounded-xl border bg-background text-card-foreground shadow">
@@ -57,32 +54,32 @@ export const EntryCard = ({
 					)}
 				>
 					{media.length > 0 &&
-						media.map((media) => {
-							if (media.type === "image") {
+						media.map((item) => {
+							if (item.type === "image") {
 								return (
 									<ImageZoom
 										backdropClassName='[&_[data-rmiz-modal-overlay="visible"]]:bg-black/80'
-										key={`entry-card.image-${media.src}`}
+										key={`entry-card.image-${item.src}`}
 									>
 										<LoadableImage
 											className="h-auto max-h-[400px] w-full rounded-2xl object-cover"
-											src={media.src}
+											src={item.src}
 										/>
 									</ImageZoom>
 								);
 							}
 
-							if (media.type === "video") {
+							if (item.type === "video") {
 								return (
 									<div
 										className="relative"
-										key={`entry-card.video-container-${media.src}`}
+										key={`entry-card.video-container-${item.src}`}
 									>
 										<video
 											autoPlay
 											className="w-full rounded-2xl"
 											controls
-											src={media.src}
+											src={item.src}
 											muted
 										>
 											<track
@@ -97,7 +94,7 @@ export const EntryCard = ({
 										{/* biome-ignore lint/a11y/useAnchorContent: Will skip it for now */}
 										<a
 											className="video-anchor absolute top-0 left-0 h-full w-full"
-											href={media.src}
+											href={item.src}
 											rel="noreferrer"
 											target="_blank"
 										/>
@@ -118,30 +115,22 @@ export const EntryCard = ({
 						<div className="flex items-center justify-between gap-4">
 							<div className="flex items-center gap-3">
 								<span
-									className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 font-bold text-lg"
+									className="flex h-12 w-12 items-center justify-center rounded-full font-bold text-lg"
 									style={{ background: "#eaeaea", color: "#f5f5f5" }}
 								>
-									N
+									{authorInitial}
 								</span>
 								<div>
-									<p className="font-semibold">Nicolás</p>
-									<p className="text-muted-foreground text-xs">
-										Tu novio que te quiere
-									</p>
+									<p className="font-semibold">{authorName}</p>
 								</div>
 							</div>
 
 							<div className="flex flex-col items-end">
 								<span className="text-xs">
-									{format(date, "MMM dd, yyyy", {
-										locale: es,
-									})}
+									{format(date, "MMM dd, yyyy", { locale: es })}
 								</span>
-
 								<span className="text-xs">
-									{`(hace ${formatDistanceToNowStrict(date, {
-										locale: es,
-									})})`}
+									{`(hace ${formatDistanceToNowStrict(date, { locale: es })})`}
 								</span>
 							</div>
 						</div>
@@ -161,7 +150,7 @@ const Header = ({
 }) => (
 	<div className="flex items-center justify-between rounded-t-xl border-b bg-card px-4 py-2">
 		<Button className="flex items-center gap-3 px-0" size="sm" variant="ghost">
-			<Link className="flex gap-2" to="entry/home">
+			<Link className="flex gap-2" to="/home">
 				<div className="size-3 rounded-full bg-red-500"></div>
 				<div className="size-3 rounded-full bg-yellow-500"></div>
 				<div className="size-3 rounded-full bg-green-500"></div>
@@ -170,14 +159,14 @@ const Header = ({
 
 		<div className="flex items-center gap-2">
 			{previousEntry && (
-				<Link to={`/entry/${previousEntry.n}`}>
+				<Link to={`/entry/${previousEntry.id}`}>
 					<Button className="text-xs" size="sm" variant="outline">
 						Anterior
 					</Button>
 				</Link>
 			)}
 			{nextEntry && (
-				<Link to={`/entry/${nextEntry.n}`}>
+				<Link to={`/entry/${nextEntry.id}`}>
 					<Button className="text-xs" size="sm" variant="outline">
 						Siguiente
 					</Button>

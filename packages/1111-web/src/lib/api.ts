@@ -1,4 +1,4 @@
-import type { Comment, CreateEntryInput, Entry, EntryDetail, MediaItem } from "@1111/shared";
+import type { Comment, CreateEntryInput, Entry, EntryDetail, MediaItem, MilestonesResponse } from "@1111/shared";
 import { auth } from "@/lib/firebase";
 
 const BASE_URL = (import.meta.env.VITE_API_URL as string | undefined) ?? "";
@@ -57,6 +57,10 @@ export const api = {
 				method: "POST",
 				body: JSON.stringify({ text }),
 			}),
+
+		/** Entries that hit a 3/6/9-month or year anniversary today or tomorrow. */
+		milestones: (coupleId: string) =>
+			request<MilestonesResponse>(`/couples/${coupleId}/entries/milestones`),
 
 		/** Upload a media file and attach it to an entry. */
 		addMedia: (coupleId: string, entryId: string, file: File, type: "image" | "video") => {

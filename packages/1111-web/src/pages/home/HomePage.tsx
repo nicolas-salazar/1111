@@ -1,63 +1,31 @@
-import { addDays, format } from "date-fns";
+import { addDays, formatDistanceStrict, getDate } from "date-fns";
 import { es } from "date-fns/locale/es";
-import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { EntryTile } from "@/components/ui/entry-tile";
 import { KeyEntryTile } from "@/components/ui/key-entry-tile";
-import { ENTRIES } from "@/entries";
-import {
-	getEntriesThatHappenedNMonthsAgo,
-	getEntriesThatHappenedYearsAgo,
-} from "@/lib/entries-utils";
+import { useEntries } from "@/hooks/useEntries";
+import { useMilestones } from "@/hooks/useMilestones";
+
+const SKELETON_KEYS = ["sk-a", "sk-b", "sk-c", "sk-d", "sk-e", "sk-f"];
 
 export const HomePage = () => {
-	const keyEntriesList = useMemo(() => {
-		return [
-			// Hoy, hace x años:
-			...getEntriesThatHappenedYearsAgo({
-				referenceDate: new Date(),
-			}).map((record) => ({
-				distance: record.distance,
-				entry: record.entry,
-				suffix: "Hoy",
-			})),
-			// Mañana, hace x años:
-			...getEntriesThatHappenedYearsAgo({
-				referenceDate: addDays(new Date(), 1),
-			}).map((record) => ({
-				distance: record.distance,
-				entry: record.entry,
-				suffix: "Mañana",
-			})),
-			// Hoy, hace 9 meses:
-			...getEntriesThatHappenedNMonthsAgo({
-				distanceInMonths: 9,
-				referenceDate: new Date(),
-			}).map((record) => ({
-				distance: record.distance,
-				entry: record.entry,
-				suffix: "Hoy",
-			})),
-			// Hoy, hace 6 meses:
-			...getEntriesThatHappenedNMonthsAgo({
-				distanceInMonths: 6,
-				referenceDate: new Date(),
-			}).map((record) => ({
-				distance: record.distance,
-				entry: record.entry,
-				suffix: "Hoy",
-			})),
-			// Hoy, hace 3 meses:
-			...getEntriesThatHappenedNMonthsAgo({
-				distanceInMonths: 3,
-				referenceDate: new Date(),
-			}).map((record) => ({
-				distance: record.distance,
-				entry: record.entry,
-				suffix: "Hoy",
-			})),
-		];
-	}, []);
+	const { data: entries = [], isLoading: entriesLoading } = useEntries();
+	const { data: milestones = [] } = useMilestones();
+
+	const today = new Date();
+	const tomorrow = addDays(today, 1);
+
+	const keyEntriesList = milestones.map((entry) => {
+		const entryDate = new Date(entry.date);
+		const isToday = getDate(entryDate) === getDate(today);
+		const refDate = isToday ? today : tomorrow;
+		const prefix = isToday ? "Hoy" : "Mañana";
+		const distance = formatDistanceStrict(entryDate, refDate, {
+			locale: es,
+			addSuffix: true,
+		});
+		return { entry, label: `${prefix}, ${distance}` };
+	});
 
 	return (
 		<div className="flex w-full flex-col gap-8">
@@ -66,36 +34,47 @@ export const HomePage = () => {
 					11:11 🦔
 				</h1>
 
-				{keyEntriesList.length > 0 ? (
+				{keyEntriesList.length > 0 && (
 					<>
 						<h2 className="px-4 text-right font-bold text-2xl text-foreground">
 							Hoy, pero hace...
 						</h2>
 
-						{keyEntriesList.map(({ distance, entry, suffix }) => (
+						{keyEntriesList.map(({ entry, label }) => (
 							<KeyEntryTile
-								distance={{ ...distance, suffix }}
 								entry={entry}
-								key={`home.key-entry.${suffix}.${distance.n}-${distance.range}.${entry.n}`}
+								key={`home.key-entry.${entry.id}`}
+								label={label}
 							/>
 						))}
 					</>
-				) : (
-					<p className="text-muted-foreground text-sm">
-						Parece que no hemos tenido ninguna cita un{" "}
-						{format(new Date(), "d 'de' MMMM", { locale: es })}... Tengamos una.
-					</p>
 				)}
 			</div>
 
 			<div className="flex w-full flex-col gap-2">
 				<h2 className="px-4 text-right font-bold text-2xl text-foreground">
-					Aquí, todas nuestras {ENTRIES.length} citas 👀✨⭐️😱🧡
+					{entriesLoading
+						? "Cargando citas…"
+						: `Aquí, todas nuestras ${entries.length} citas 👀✨⭐️😱🧡`}
 				</h2>
 
-				{ENTRIES.map((entry) => (
-					<EntryTile key={`home.entry.${entry.n}`} entry={entry} />
-				))}
+				{entriesLoading ? (
+					<div className="flex flex-col gap-2">
+						{SKELETON_KEYS.map((k) => (
+							<div key={k} className="flex flex-col gap-2 rounded-lg border p-3">
+								<div className="flex items-center justify-between">
+									<div className="h-4 w-1/3 animate-pulse rounded bg-muted" />
+									<div className="h-3 w-20 animate-pulse rounded bg-muted" />
+								</div>
+								<div className="h-3 w-2/3 animate-pulse rounded bg-muted" />
+							</div>
+						))}
+					</div>
+				) : (
+					entries.map((entry) => (
+						<EntryTile key={`home.entry.${entry.id}`} entry={entry} />
+					))
+				)}
 			</div>
 
 			<Link

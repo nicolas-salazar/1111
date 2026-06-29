@@ -1,12 +1,12 @@
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
-import type { Entry } from "@/entries";
+import type { Entry } from "@1111/shared";
 
 export const EntryTile = ({ entry }: { entry: Entry }) => {
 	return (
 		<Link
 			className="flex flex-col items-start gap-2 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent hover:text-accent-foreground"
-			to={`/entry/${entry.n}`}
+			to={`/entry/${entry.id}`}
 		>
 			<div className="flex w-full items-center justify-between gap-1">
 				<h3 className="font-semibold">{entry.title}</h3>
