@@ -1,7 +1,6 @@
 import {
 	type User,
 	GoogleAuthProvider,
-	OAuthProvider,
 	onAuthStateChanged,
 	signInWithPopup,
 	signOut as firebaseSignOut,
@@ -21,7 +20,6 @@ type AuthContextValue = {
 	currentUser: AppUser | null;
 	loading: boolean;
 	signInWithGoogle: () => Promise<void>;
-	signInWithMicrosoft: () => Promise<void>;
 	signOut: () => Promise<void>;
 };
 
@@ -73,10 +71,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 		await signInWithPopup(auth, new GoogleAuthProvider());
 	}
 
-	async function signInWithMicrosoft() {
-		await signInWithPopup(auth, new OAuthProvider("microsoft.com"));
-	}
-
 	async function signOut() {
 		await firebaseSignOut(auth);
 		setCurrentUser(null);
@@ -84,7 +78,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
 	return (
 		<AuthContext.Provider
-			value={{ currentUser, loading, signInWithGoogle, signInWithMicrosoft, signOut }}
+			value={{ currentUser, loading, signInWithGoogle, signOut }}
 		>
 			{children}
 		</AuthContext.Provider>

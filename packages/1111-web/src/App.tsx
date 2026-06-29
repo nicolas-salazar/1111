@@ -1,30 +1,54 @@
+import type { ReactNode } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { DevToolsPage, EntryPage, HomePage, WelcomePage } from "@/pages";
-import { HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY } from "./pages/welcome/WelcomePage";
+import { useAuth } from "@/contexts/AuthContext";
+import {
+	DevToolsPage,
+	EntryPage,
+	HomePage,
+	LoginPage,
+	OnboardingPage,
+} from "@/pages";
 
-const App = () => {
-	const hasVisitedTheWelcomePage = JSON.parse(
-		localStorage.getItem(HAS_VISITED_THE_WELCOME_PAGE_PERSISTENCE_KEY) ??
-			"false",
-	);
-
-	return (
-		<main className="mx-auto flex max-h-dvh min-h-dvh w-screen max-w-[768px] flex-col items-center justify-start gap-6 overflow-x-hidden px-4 py-6">
-			<Routes>
-				<Route path="/home" element={<HomePage />} />
-				<Route path="/welcome" element={<WelcomePage />} />
-				<Route path="/entry/:id" element={<EntryPage />} />
-				<Route path="/dev-tools" element={<DevToolsPage />} />
-
-				<Route
-					path="*"
-					element={
-						<Navigate to={hasVisitedTheWelcomePage ? "/home" : "/welcome"} />
-					}
-				/>
-			</Routes>
-		</main>
-	);
+const ProtectedRoute = ({ children }: { children: ReactNode }) => {
+	const { currentUser, loading } = useAuth();
+	if (loading)
+		return (
+			<div className="flex flex-1 items-center justify-center">
+				<span
+					aria-label="Cargando"
+					className="animate-pulse text-5xl"
+					role="img"
+				>
+					🦔
+				</span>
+			</div>
+		);
+	if (!currentUser) return <Navigate replace to="/login" />;
+	return <>{children}</>;
 };
+
+const App = () => (
+	<main className="mx-auto flex max-h-dvh min-h-dvh w-screen max-w-[768px] flex-col items-center justify-start gap-6 overflow-x-hidden px-4 py-6">
+		<Routes>
+			<Route path="/login" element={<LoginPage />} />
+
+			<Route
+				path="/home"
+				element={<ProtectedRoute><HomePage /></ProtectedRoute>}
+			/>
+			<Route
+				path="/onboarding"
+				element={<ProtectedRoute><OnboardingPage /></ProtectedRoute>}
+			/>
+			<Route
+				path="/entry/:id"
+				element={<ProtectedRoute><EntryPage /></ProtectedRoute>}
+			/>
+			<Route path="/dev-tools" element={<DevToolsPage />} />
+
+			<Route path="*" element={<Navigate replace to="/home" />} />
+		</Routes>
+	</main>
+);
 
 export default App;

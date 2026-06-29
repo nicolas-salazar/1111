@@ -79,7 +79,7 @@ export const HomePage = () => {
 
 			<Link
 				className="ml-auto w-fit text-right text-sm underline"
-				to="/welcome"
+				to="/onboarding"
 			>
 				Volver a ver la intro gei
 			</Link>
