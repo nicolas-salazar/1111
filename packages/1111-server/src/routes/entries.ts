@@ -1,13 +1,13 @@
 import { FieldValue } from "firebase-admin/firestore";
 import { Hono } from "hono";
-import type { Comment, CreateEntryInput, Entry, MediaItem } from "@1111/shared";
+import type { Comment, CreateEntryInput, Entry, EntryDetail, MediaItem } from "@1111/shared";
 import { db, storageBucket } from "../lib/firebase.js";
 import { TtlCache } from "../lib/cache.js";
 import { requireAuth } from "../middleware/auth.js";
 
 export const entriesRouter = new Hono();
 
-const cache = new TtlCache<Entry[]>(5 * 60 * 1000);
+const cache = new TtlCache<Entry[]>(24 * 60 * 60 * 1000);
 
 function entriesCol(coupleId: string) {
 	return db.collection("couples").doc(coupleId).collection("entries");
@@ -35,24 +35,34 @@ entriesRouter.get("/", async (c) => {
 
 /**
  * Returns a single entry by its Firestore ID, including all media and comments.
+ * Also includes previousEntryId and nextEntryId for prev/next navigation.
  * Serves from the list cache when available to avoid an extra Firestore read.
  */
 entriesRouter.get("/:entryId", async (c) => {
 	const { coupleId, entryId } = c.req.param();
 
 	const cacheKey = `entries:${coupleId}`;
-	const cached = cache.get(cacheKey);
-	if (cached) {
-		const entry = cached.find((e) => e.id === entryId);
-		if (!entry) return c.json({ error: "Not found" }, 404);
-		return c.json(entry);
+	let allEntries = cache.get(cacheKey);
+
+	if (!allEntries) {
+		const snapshot = await entriesCol(coupleId).orderBy("date", "asc").get();
+		allEntries = snapshot.docs.map((doc) => ({
+			...(doc.data() as Omit<Entry, "id">),
+			id: doc.id,
+		}));
+		cache.set(cacheKey, allEntries);
 	}
 
-	const doc = await entriesCol(coupleId).doc(entryId).get();
-	if (!doc.exists) return c.json({ error: "Not found" }, 404);
+	const index = allEntries.findIndex((e) => e.id === entryId);
+	if (index === -1) return c.json({ error: "Not found" }, 404);
 
-	const entry: Entry = { ...(doc.data() as Omit<Entry, "id">), id: doc.id };
-	return c.json(entry);
+	const detail: EntryDetail = {
+		...allEntries[index],
+		previousEntryId: allEntries[index - 1]?.id ?? null,
+		nextEntryId: allEntries[index + 1]?.id ?? null,
+	};
+
+	return c.json(detail);
 });
 
 /**

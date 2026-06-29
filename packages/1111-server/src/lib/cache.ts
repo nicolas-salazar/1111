@@ -7,7 +7,7 @@ export class TtlCache<T> {
 	private store = new Map<string, CacheEntry<T>>();
 	private ttlMs: number;
 
-	constructor(ttlMs = 5 * 60 * 1000) {
+	constructor(ttlMs = 24 * 60 * 60 * 1000) {
 		this.ttlMs = ttlMs;
 	}
 

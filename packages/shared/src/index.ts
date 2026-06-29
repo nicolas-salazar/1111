@@ -62,6 +62,12 @@ export type CreateEntryInput = Pick<Entry, "title" | "date" | "content"> & {
 	media?: MediaItem[];
 };
 
+// Returned by GET /entries/:id — includes adjacent entry IDs for prev/next navigation
+export type EntryDetail = Entry & {
+	previousEntryId: string | null;
+	nextEntryId: string | null;
+};
+
 // ─── Metadata ────────────────────────────────────────────────────────────────
 
 // Firestore: couples/{coupleId}/metadata/stats
